@@ -12,13 +12,7 @@ import org.bson.Document;
 
 public class Main {
 
-	public static void main(String[] args) {
-		insertData("first" , "firstValue");
-		updateData("first" ,"firstValue", "updatedFirst" , "updatedValue");
-		deleteData("key" , "value");
-		System.out.print(getData());
-	}
-	static ArrayList<Document> getData() {
+	public ArrayList<Document> getData() {
 		MongoClient mongo = MongoClients.create("mongodb://localhost:27017"); 
 		MongoDatabase db = mongo.getDatabase("firstJavaDB");
 		MongoCollection<Document> collection = db.getCollection("myCollection");
@@ -28,7 +22,7 @@ public class Main {
 		}
 		return docs;
 	}
-	static void insertData(String key , String value) {
+	public void insertData(String key , String value) {
 		MongoClient mongo = MongoClients.create("mongodb://localhost:27017"); 
 		MongoDatabase db = mongo.getDatabase("firstJavaDB");
 		MongoCollection<Document> collection = db.getCollection("myCollection");
@@ -36,14 +30,14 @@ public class Main {
 		collection.insertOne(doc);
 	}
 	
-	static void updateData(String key ,String value ,  String newKey , String newValue) {
+	public void updateData(String key ,String value ,  String newKey , String newValue) {
 		MongoClient mongo = MongoClients.create("mongodb://localhost:27017"); 
 		MongoDatabase db = mongo.getDatabase("firstJavaDB");
 		MongoCollection<Document> collection = db.getCollection("myCollection");
 		collection.updateOne(Filters.eq(key , value) , Updates.set(newKey, value) );
 	}
 	
-	static void deleteData(String key , String value) {
+	public void deleteData(String key , String value) {
 		MongoClient mongo = MongoClients.create("mongodb://localhost:27017"); 
 		MongoDatabase db = mongo.getDatabase("firstJavaDB");
 		MongoCollection<Document> collection = db.getCollection("myCollection");
