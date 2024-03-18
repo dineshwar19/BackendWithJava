@@ -5,9 +5,7 @@ import com.mongodb.client.MongoDatabase;
 import com.mongodb.client.model.Filters;
 import com.mongodb.client.model.Updates;
 import com.mongodb.client.MongoCollection;
-
 import java.util.ArrayList;
-
 import org.bson.Document;
 
 public class Main {
