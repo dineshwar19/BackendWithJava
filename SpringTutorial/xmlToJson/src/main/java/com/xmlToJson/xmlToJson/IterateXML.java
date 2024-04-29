@@ -11,7 +11,7 @@ public class IterateXML {
     public static void main(String[] args) throws Exception {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = factory.newDocumentBuilder();
-        File file = new File("F:\\Intership\\SpringTutorial\\xmlToJson\\src\\main\\java\\com\\xmlToJson\\xmlToJson\\data.xml");
+        File file = new File("F:\\Intership\\SpringTutorial\\xmlToJson\\src\\main\\java\\com\\xmlToJson\\xmlToJson\\input.xml");
         Document document = builder.parse(file);
         JSONObject jsonObject = convert(document.getDocumentElement());
         JSONObject ans = new JSONObject();

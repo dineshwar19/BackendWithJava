@@ -1,0 +1,4365 @@
+<bugzilla version="5.0.4" urlbase="https://desvrdgate01.brainlab.net/bugzilla/"
+	maintainer="rnd.tools@brainlab.com" exporter="mario.schubert.ext@brainlab.com">
+<bug>
+		<bug_id>151716</bug_id>
+		<creation_ts>2022-05-19 13:56:46 +0200</creation_ts>
+		<short_desc>About box changes due to MDR transition</short_desc>
+		<delta_ts>2022-10-14 13:42:50 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>GUI</component>
+		<version>7.0.1 development</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>RESOLVED</bug_status>
+		<resolution>FIXED</resolution>
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P5</priority>
+		<bug_severity>undefined</bug_severity>
+		<target_milestone>7.1.0</target_milestone>
+		<everconfirmed>1</everconfirmed>
+		<reporter name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</reporter>
+		<assigned_to name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</assigned_to>
+		<cc>mario.schubert.ext@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-vrsrTqBURfz8JkW8oZueLRq8hGFCNXamUPT7nfhjt9E</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>817538</commentid>
+			<comment_count>0</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-05-19 13:56:46 +0200</bug_when>
+			<thetext>See also bugs 138831 and 150788. Th about box needs to be adapted to fit to MDR
+				requirements, this includes: - show Medical Device Name - show GTIN (UDI and PI) -
+				new design - representative swiss</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>817603</commentid>
+			<comment_count>1</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-05-19 16:07:33 +0200</bug_when>
+			<thetext>--> set to confirmed</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>822753</commentid>
+			<comment_count>2</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-06-29 14:33:48 +0200</bug_when>
+			<thetext>changed target milestone to 7.0.1</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>832404</commentid>
+			<comment_count>3</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-10-12 15:00:12 +0200</bug_when>
+			<thetext>--> set status to resolved fixed</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>832572</commentid>
+			<comment_count>4</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-10-14 13:42:50 +0200</bug_when>
+			<thetext>Version 7.0.1 development already refers to project SNNA030 for release of HIP7
+				under MDR which was later changed to a second digit change --> HIP7 v7.1 Target Hip
+				7.1.0 refers to project SNNA030 for release of HIP7 under MDR and not cancelled
+				project SNNA06 (Hyperion)</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>151710</bug_id>
+		<creation_ts>2022-05-19 11:07:36 +0200</creation_ts>
+		<short_desc>Database path needs to be updated</short_desc>
+		<delta_ts>2022-10-14 13:42:36 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>Database</component>
+		<version>7.0.1 development</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>RESOLVED</bug_status>
+		<resolution>FIXED</resolution>
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P5</priority>
+		<bug_severity>enhancement</bug_severity>
+		<target_milestone>7.1.0</target_milestone>
+		<everconfirmed>1</everconfirmed>
+		<reporter name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</reporter>
+		<assigned_to name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</assigned_to>
+		<cc>philipp.pousset.ext@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-82NmOCI0bEiLybzbQwbNpOIeXUk69_Xo7ukAEBBigV4</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>817493</commentid>
+			<comment_count>0</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-05-19 11:07:36 +0200</bug_when>
+			<thetext>Database path from Hip7 v7.0 needs to be updated to match new path for updated
+				Hip7 v7.0.1</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>832393</commentid>
+			<comment_count>1</comment_count>
+			<who name="Mario Schubert (S&amp;N)">mario.schubert.ext@brainlab.com</who>
+			<bug_when>2022-10-12 14:25:01 +0200</bug_when>
+			<thetext>ready for testing</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>832403</commentid>
+			<comment_count>2</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-10-12 14:59:45 +0200</bug_when>
+			<thetext>--> set to resolved fixed</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>832571</commentid>
+			<comment_count>3</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-10-14 13:42:36 +0200</bug_when>
+			<thetext>Version 7.0.1 development already refers to project SNNA030 for release of HIP7
+				under MDR which was later changed to a second digit change --> HIP7 v7.1 Target Hip
+				7.1.0 refers to project SNNA030 for release of HIP7 under MDR and not cancelled
+				project SNNA06 (Hyperion)</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>151709</bug_id>
+		<creation_ts>2022-05-19 11:05:14 +0200</creation_ts>
+		<short_desc>Single/multiple point acquisition triggered repeatedly with Clip-On</short_desc>
+		<delta_ts>2022-10-14 13:42:23 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>Pelvis Registration</component>
+		<version>7.0.1 development</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>RESOLVED</bug_status>
+		<resolution>FIXED</resolution>
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P5</priority>
+		<bug_severity>enhancement</bug_severity>
+		<target_milestone>7.1.0</target_milestone>
+		<everconfirmed>1</everconfirmed>
+		<reporter name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</reporter>
+		<assigned_to name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</assigned_to>
+		<cc>steffen.beck.ext@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-wvsTrCpoeMi_kagWYweFRmHFlEZT38xEJfF-e-tW83M</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>817492</commentid>
+			<comment_count>0</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-05-19 11:05:14 +0200</bug_when>
+			<thetext>With continously clicked clip-on the point acquisition is triggered multiple
+				times.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>822754</commentid>
+			<comment_count>1</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-06-29 14:34:43 +0200</bug_when>
+			<thetext>changed target milestone to 7.0.1 and status to confirmed</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>832401</commentid>
+			<comment_count>2</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-10-12 14:59:04 +0200</bug_when>
+			<thetext>--> set status to resolved fixed</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>832569</commentid>
+			<comment_count>3</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-10-14 13:42:23 +0200</bug_when>
+			<thetext>Version 7.0.1 development already refers to project SNNA030 for release of HIP7
+				under MDR which was later changed to a second digit change --> HIP7 v7.1 Target Hip
+				7.1.0 refers to project SNNA030 for release of HIP7 under MDR and not cancelled
+				project SNNA06 (Hyperion)</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>151707</bug_id>
+		<creation_ts>2022-05-19 10:56:15 +0200</creation_ts>
+		<short_desc>About box: adapt user guide info</short_desc>
+		<delta_ts>2022-10-14 13:42:08 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>GUI</component>
+		<version>7.0.1 development</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>RESOLVED</bug_status>
+		<resolution>FIXED</resolution>
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P5</priority>
+		<bug_severity>minor</bug_severity>
+		<target_milestone>7.1.0</target_milestone>
+		<dependson>136288</dependson>
+		<everconfirmed>1</everconfirmed>
+		<reporter name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</reporter>
+		<assigned_to name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</assigned_to>
+		<cc>mario.schubert.ext@brainlab.com</cc>
+		<cc>mario.schubert@brainlab.com</cc>
+		<cc>philipp.pousset.ext@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-p6q2RK4cqhw4sXjweTZwS7r3wNlEAJ8uaOB47ow7ueo</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>817488</commentid>
+			<comment_count>0</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-05-19 10:56:15 +0200</bug_when>
+			<thetext>+++ This bug was initially created as a clone of Bug #136288 +++ according bug
+				122266 at KNEE3 the user guide info needs to be updated</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>817602</commentid>
+			<comment_count>1</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-05-19 16:06:55 +0200</bug_when>
+			<thetext>--> set to confirmed</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>822755</commentid>
+			<comment_count>2</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-06-29 14:35:18 +0200</bug_when>
+			<thetext>changed target milestone to 7.0.1</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>832400</commentid>
+			<comment_count>3</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-10-12 14:58:25 +0200</bug_when>
+			<thetext>--> set to resolved fixed</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>832568</commentid>
+			<comment_count>4</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-10-14 13:42:08 +0200</bug_when>
+			<thetext>Version 7.0.1 development already refers to project SNNA030 for release of HIP7
+				under MDR which was later changed to a second digit change --> HIP7 v7.1 Target Hip
+				7.1.0 refers to project SNNA030 for release of HIP7 under MDR and not cancelled
+				project SNNA06 (Hyperion)</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>126451</bug_id>
+		<creation_ts>2019-07-25 10:29:47 +0200</creation_ts>
+		<short_desc>Cybersecurity Test - adapt blr failed</short_desc>
+		<delta_ts>2021-10-04 15:06:58 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>Database</component>
+		<version>7.0 development</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>CONFIRMED</bug_status>
+		<resolution />
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P5</priority>
+		<bug_severity>trivial</bug_severity>
+		<target_milestone>later</target_milestone>
+		<everconfirmed>1</everconfirmed>
+		<reporter name="Steffen Beck">steffen.beck@brainlab.com</reporter>
+		<assigned_to name="Philipp Pousset (S&amp;N)">philipp.pousset.ext@brainlab.com</assigned_to>
+		<cc>mario.schubert@brainlab.com</cc>
+		<cc>steffen.beck@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-cIyWN1I8Y9ZD0H4RAStslc4kxe34THACXaQa-B3L5EM</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>655098</commentid>
+			<comment_count>0</comment_count>
+			<who name="Steffen Beck">steffen.beck@brainlab.com</who>
+			<bug_when>2019-07-25 10:29:47 +0200</bug_when>
+			<thetext>The test in the cybersecurity test plan where an adapted blr file shall be
+				identified by the software failed.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>658847</commentid>
+			<comment_count>1</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2019-08-09 09:15:52 +0200</bug_when>
+			<thetext>Every implant CAD file is stored as a simplex model on disc while generating
+				all database files. All models of a single implant system are stored together in one
+				blr resource-file which is distributed by Hip7. For instance there is file called
+				IY_R3_Cups_2121.blr for all CAD files of R3 cups. For loading these implant files at
+				runtime of application the mechanism of ResourceLoader of Reslib is used. As I
+				understand it, first the complete file is opened and only the ids of every resource
+				is identified. On request the necessary single resource is loaded. There are no
+				additional possibilities to check the resources in advance. I assume if you really
+				modify part of resource you will need later one, an error will occur and the loading
+				is stopped. But you cannot know that. If there is really an requirement for security
+				reasons its necessary to assign this bug to Reslib directly.
+				//sw/config/domain/base/11.0/bundle/Bundle_Base/11.0.1/rel.xml#15 On application
+				level I see only one solution: In older applications the software was installed
+				independent of used database. In ordere to check availability of all correct
+				database files, we had implemented only in service mode the functionality, that
+				software is loading all necessary implants of every manufacturer at program start.
+				This takes some time, but this was checked only by service engineer directly after
+				installation. My be such an functionality can be used also for cybersecurity
+				reasons, but * every program start would take some more time ( > 10 sec??? ) *
+				functionality must be re-implemented</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>658848</commentid>
+			<comment_count>2</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2019-08-09 09:17:53 +0200</bug_when>
+			<thetext>please set target milestone and spec after meeting</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>658981</commentid>
+			<comment_count>3</comment_count>
+			<who name="Philipp Pousset">philipp.pousset@brainlab.com</who>
+			<bug_when>2019-08-09 11:47:57 +0200</bug_when>
+			<thetext>Since implant data that is stored in .blr-files is only used for displaying a
+				cup on the navigation page and is NOT used for any calculation, a manipulation of a
+				specific .blr-file doesn't result in patient harm performing a workflow provided
+				with HIP7 v7.0. Thus, severity is still trivial. But whenever a later version of
+				HIP7 uses implant data for calculation, severity has to be re-evaluated. --> set
+				target milestone to "7.1.0" Regarding cybersecurity, plausible vulnerabilities in
+				the process of loading .blr-files using Reslib should be evaluated. This was
+				addressed in bug 126967. Encryption of database still need to be tested.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>765009</commentid>
+			<comment_count>4</comment_count>
+			<who name="Philipp Pousset">philipp.pousset@brainlab.com</who>
+			<bug_when>2021-05-20 17:58:03 +0200</bug_when>
+			<thetext>--> set target to "later", as the relevant root bug will only be fixed with
+				framework 13.0.0 that will be released after HIP7 v7.1</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>111734</bug_id>
+		<creation_ts>2017-11-30 11:21:02 +0100</creation_ts>
+		<short_desc>Cup Impactor Visualization - Product Management Feedback 27th November 2017</short_desc>
+		<delta_ts>2020-12-15 09:45:00 +0100</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>GUI</component>
+		<version>7.0 development</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>SCHEDULED</bug_status>
+		<resolution />
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P5</priority>
+		<bug_severity>enhancement</bug_severity>
+		<target_milestone>later</target_milestone>
+		<everconfirmed>1</everconfirmed>
+		<reporter name="Tanja Grosser">tanja.grosser@brainlab.com</reporter>
+		<assigned_to name="Steffen Beck">steffen.beck@brainlab.com</assigned_to>
+		<cc>mario.schubert@brainlab.com</cc>
+		<cc>steffen.beck@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-Jf02qogmwAu-vGDHU0mSO_TdR011w-0bUwPwyhgcy3Q</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>577336</commentid>
+			<comment_count>0</comment_count>
+			<who name="Tanja Grosser">tanja.grosser@brainlab.com</who>
+			<bug_when>2017-11-30 11:21:02 +0100</bug_when>
+			<thetext>On the navigation page it was suggested by PdM that the used cup impactor shall
+				be transparently overlayed above the cup axis. (see ETF "0000100715"). This is a
+				suggestion which will be evaluated.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>639357</commentid>
+			<comment_count>1</comment_count>
+			<who name="Steffen Beck">steffen.beck@brainlab.com</who>
+			<bug_when>2019-03-14 11:13:07 +0100</bug_when>
+			<thetext>--> set to later</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>745550</commentid>
+			<comment_count>2</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2020-12-15 09:45:00 +0100</bug_when>
+			<thetext>Only brings value if the actual cup impactor is displayed in its live position
+				and orientation --> no implementation within HIP7v7.1 --> target Later still valid</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>109761</bug_id>
+		<creation_ts>2017-09-06 11:21:37 +0200</creation_ts>
+		<short_desc>ENHANCEMENT - Pinless - idea how to determine the M/L direction independently
+			from the SMS-reference orientation</short_desc>
+		<delta_ts>2022-10-14 13:18:46 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>Leg Situation</component>
+		<version>7.0 development</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>REOPENED</bug_status>
+		<resolution />
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P4</priority>
+		<bug_severity>enhancement</bug_severity>
+		<target_milestone>later</target_milestone>
+		<dependson>49464</dependson>
+		<everconfirmed>1</everconfirmed>
+		<reporter name="Tanja Grosser">tanja.grosser@brainlab.com</reporter>
+		<assigned_to>ruben.moreno@brainlab.com</assigned_to>
+		<cc>f.reifenschneider@brainlab.com</cc>
+		<cc>mario.schubert@brainlab.com</cc>
+		<cc>reifenschneider.ext@brainlab.com</cc>
+		<cc>steffen.beck@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-YtYSAafzE7RZuWerNeCoFWqP-F5VJBmoAK4YPc0k13A</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>568062</commentid>
+			<comment_count>0</comment_count>
+			<who name="Tanja Grosser">tanja.grosser@brainlab.com</who>
+			<bug_when>2017-09-06 11:21:37 +0200</bug_when>
+			<thetext>+++ This bug was initially created as a clone of Bug #49464 +++ For pinless a
+				rough registration is needed to show the crosshair movement correctly. Currently
+				this depends on the z-direction of the SMS array. So the SMS array defines the M/L
+				direction in lateral position and the A/P direction in supine position. DOH had the
+				idea to always set the M/L direction using the direction of the pre-op reference
+				point to its projection on the mech axis. Doing so we would become independent from
+				the SMS array orientation.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>568063</commentid>
+			<comment_count>1</comment_count>
+			<who name="Tanja Grosser">tanja.grosser@brainlab.com</who>
+			<bug_when>2017-09-06 11:21:55 +0200</bug_when>
+			<thetext>Information for Hip 7.0</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>636785</commentid>
+			<comment_count>2</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2019-02-13 15:47:37 +0100</bug_when>
+			<thetext>Please decide, if we shall implement it. The idea is really not bad.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>636807</commentid>
+			<comment_count>3</comment_count>
+			<who name="Martin Adamski">martin.adamski@brainlab.com</who>
+			<bug_when>2019-02-13 17:18:11 +0100</bug_when>
+			<thetext>DOH often has really good ideas which sometimes are ahead of the times. 8 years
+				in this case. :-)</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>650438</commentid>
+			<comment_count>4</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2019-07-01 15:55:08 +0200</bug_when>
+			<thetext>re-assigned</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>650922</commentid>
+			<comment_count>5</comment_count>
+			<who name="Steffen Beck">steffen.beck@brainlab.com</who>
+			<bug_when>2019-07-04 09:28:33 +0200</bug_when>
+			<thetext>The described idea for identification of the M/L direction will not be
+				implemented in Hip 7 due to the following reasons: - It is to be expected that the
+				screw might not always be placed in a true lateral position from the center of
+				rotation. In fact the femoral antetorsion is in average 15Â° and might vary by a
+				large amount from patient to patient. Therefore the suggested solution probably does
+				not bring the expected benefit, especially for patients with a large femoral
+				antetorsion. - In addition there is no feedback from the field that this mismatch of
+				the M/L direction lead to the situation that the user was unable to bring the leg
+				back into neutral position.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>745912</commentid>
+			<comment_count>6</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2020-12-17 07:13:24 +0100</bug_when>
+			<thetext>In Croxley Lab Dec 2020 pinless algorithm in combination with ClearLens
+				technology and a prototype software of Hip7v7.1 was used. Due to visibility issues,
+				especially in lateral patient position, the question raised up if the pinless array
+				can be rotated around femoral bone. If it will be necessary, current proposed idea
+				should be considered again within Hip7v7.1 project.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>832533</commentid>
+			<comment_count>7</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-10-14 13:18:46 +0200</bug_when>
+			<thetext>Hip 7.1 refers to project Hyperion (SNNA06) which was cancelled; and not to the
+				project HIP7 v7.1 for MDR release of HIP7 (SNNA030). --> changed target to late</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>109750</bug_id>
+		<creation_ts>2017-09-06 10:50:56 +0200</creation_ts>
+		<short_desc>Stem Size attribute values are handled as pure number format</short_desc>
+		<delta_ts>2022-10-14 13:18:24 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>Database</component>
+		<version>7.0 development</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>RESOLVED</bug_status>
+		<resolution>FIXED</resolution>
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P5</priority>
+		<bug_severity>trivial</bug_severity>
+		<target_milestone>later</target_milestone>
+		<dependson>63836</dependson>
+		<dependson>73581</dependson>
+		<everconfirmed>1</everconfirmed>
+		<reporter name="Tanja Grosser">tanja.grosser@brainlab.com</reporter>
+		<assigned_to>f.reifenschneider@brainlab.com</assigned_to>
+		<cc>mario.schubert@brainlab.com</cc>
+		<cc>martin.adamski@brainlab.com</cc>
+		<cc>miriam.heizmann@brainlab.com</cc>
+		<cc>reifenschneider.ext@brainlab.com</cc>
+		<cc>tanja.grosser@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-ocaD6uFH4lN6dwCfYc0THPy5sBJiSc8uyS4Qxx4V9IM</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>568039</commentid>
+			<comment_count>0</comment_count>
+			<who name="Tanja Grosser">tanja.grosser@brainlab.com</who>
+			<bug_when>2017-09-06 10:50:56 +0200</bug_when>
+			<thetext>+++ This bug was initially created as a clone of Bug #73581 +++ +++ This bug
+				was initially created as a clone of Bug #63836 +++ The attribute Stem Size is
+				handled as a numeric value in the software, but in the database it is maintained as
+				text. This may cause unexpected effects when parsing attribute values, that contain
+				characters different from numbers. For future releases a different approach should
+				be chosen to fulfill the two ways the attribute is used at the moment: 1. Finding
+				matching broaches via numeric comparison of attribute values 2. Display stem size
+				label as used by the manufacturer/surgeon.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>568040</commentid>
+			<comment_count>1</comment_count>
+			<who name="Tanja Grosser">tanja.grosser@brainlab.com</who>
+			<bug_when>2017-09-06 10:51:04 +0200</bug_when>
+			<thetext>Check if this problem occurs when database concept for Hip 7.0 was defined. -->
+				set state to confirmed</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>642052</commentid>
+			<comment_count>2</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2019-04-11 16:23:22 +0200</bug_when>
+			<thetext>not relevant for Hip 7.0 requirements, so it will be shifted to 7.1</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>745586</commentid>
+			<comment_count>3</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2020-12-15 10:30:14 +0100</bug_when>
+			<thetext>needs to be considered for new SN database within HIP7v7.1 project</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>766785</commentid>
+			<comment_count>4</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2021-06-18 07:23:38 +0200</bug_when>
+			<thetext>all works fine with refactored database used by HIP7v7.1</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>781273</commentid>
+			<comment_count>5</comment_count>
+			<who name="">f.reifenschneider@brainlab.com</who>
+			<bug_when>2021-09-22 11:44:25 +0200</bug_when>
+			<thetext>stem size attribute can be selected in implant selection menu of HIP7 v7.1 bug
+				fixed.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>832532</commentid>
+			<comment_count>6</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-10-14 13:18:24 +0200</bug_when>
+			<thetext>Hip 7.1 refers to project Hyperion (SNNA06) which was cancelled; and not to the
+				project HIP7 v7.1 for MDR release of HIP7 (SNNA030). --> changed target to late</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>109749</bug_id>
+		<creation_ts>2017-09-06 10:48:36 +0200</creation_ts>
+		<short_desc>Implant's size-dependend compatibility issue</short_desc>
+		<delta_ts>2022-10-14 13:17:56 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>Database</component>
+		<version>7.0 development</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>RESOLVED</bug_status>
+		<resolution>FIXED</resolution>
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P5</priority>
+		<bug_severity>enhancement</bug_severity>
+		<target_milestone>later</target_milestone>
+		<dependson>73797</dependson>
+		<everconfirmed>1</everconfirmed>
+		<reporter name="Tanja Grosser">tanja.grosser@brainlab.com</reporter>
+		<assigned_to name="Mario Schubert (S&amp;N)">mario.schubert.ext@brainlab.com</assigned_to>
+		<cc>mario.schubert@brainlab.com</cc>
+		<cc>melanie.wegner@brainlab.com</cc>
+		<cc>philipp.pousset.ext@brainlab.com</cc>
+		<cc>reifenschneider.ext@brainlab.com</cc>
+		<cc>tanja.grosser@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-4O_AgwIMpwte7HNyZKU55tsfaSHrWt5PLsXijrPOad4</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>568036</commentid>
+			<comment_count>0</comment_count>
+			<who name="Tanja Grosser">tanja.grosser@brainlab.com</who>
+			<bug_when>2017-09-06 10:48:36 +0200</bug_when>
+			<thetext>+++ This bug was initially created as a clone of Bug #73797 +++ During special
+				test scenarios we detected possibilities which leads to an incomplete implant
+				selection by changing the implant size. description: selected shell system : sizes
+				... 46, 44, 42, 40, 38 e.g. Bantam Shells Depuy liner: compatible to selected shell
+				and head, but for size 46 and 44 : compatibiliy to head diameter 28, 26 and 22 size
+				42, 40, 38 : compatibility only to head diameter 22 correct case: a head system was
+				selected, which exists in the head diameter 28, 26 and 22 ( Articul. heads ). If
+				user starts with (1) shell size 44 and head 28, (2) increase shell size by control
+				to 42 (3) software automatically select a liner for 22 mm heads, automatically
+				change the visible attribute of selected head system to 22 and select a compatible
+				head --> all is correct incorrect case: A head system was selected, which exists
+				only with the head diameter 28 and 26 ( BILOX heads ). If user starts with (1) shell
+				size 44 and head 28, (2) increase shell size by control to 42 (3) software
+				automatically select a liner for 22 mm heads, but for this liner no head is
+				compatible. This combination does not exist and the user needs to switch the head
+				system. No valid implant selection exists. The software detects that no compatible
+				head exist. On the implant selection page the complete row will be disabled. The
+				RESET button is disabled, because no valid implant selection exists, the NEXT button
+				is disabled because currently not all implant parts are selected. The user has to
+				know some details to solve this issue. In such a case the software should not
+				disable the complete row of the implant part but enable the switch to another
+				implant system ( in this case from BILOX heads to articuleze heads ).</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>568037</commentid>
+			<comment_count>1</comment_count>
+			<who name="Tanja Grosser">tanja.grosser@brainlab.com</who>
+			<bug_when>2017-09-06 10:49:11 +0200</bug_when>
+			<thetext>Check if this problem occurs when database concept for Hip 7.0 was defined. -->
+				set state to confirmed</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>645833</commentid>
+			<comment_count>2</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2019-05-20 07:39:27 +0200</bug_when>
+			<thetext>set the milestone to Hip 7.1 as within 7.0 only a pelvis part ( liner / shell )
+				implant selection is used without a manual implant selection user interface</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>745561</commentid>
+			<comment_count>3</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2020-12-15 10:07:10 +0100</bug_when>
+			<thetext>* Refer to Xtool Target: Ta.3GEH6G * Implant selection for S+N implant systems
+				needs to be user friendly target 7.1.0 is still valid, but bug issue needs to be
+				adapted to content of database used with HIP7v7.1</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>766787</commentid>
+			<comment_count>4</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2021-06-18 07:29:06 +0200</bug_when>
+			<thetext>There are implant combinations which are not compatible, its true. But the
+				current implant selection is designed in a way that the user is informed always if
+				all fits together. The current implementation should be tested carefully also
+				regarding usability and user-friendliness.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>787391</commentid>
+			<comment_count>5</comment_count>
+			<who name="Philipp Pousset (S&amp;N)">philipp.pousset.ext@brainlab.com</who>
+			<bug_when>2021-10-28 15:11:14 +0200</bug_when>
+			<thetext>Implant selection was implemented as specified and underwent exploratory
+				testing --> set status to "Resolved -> fixed"</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>832531</commentid>
+			<comment_count>6</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-10-14 13:17:56 +0200</bug_when>
+			<thetext>Hip 7.1 refers to project Hyperion (SNNA06) which was cancelled; and not to the
+				project HIP7 v7.1 for MDR release of HIP7 (SNNA030). --> changed target to later</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>126043</bug_id>
+		<creation_ts>2019-07-12 08:57:46 +0200</creation_ts>
+		<short_desc>Use anatomical symbols instead of "P"/ "F" for visibility indicators</short_desc>
+		<delta_ts>2022-10-14 13:19:08 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>GUI</component>
+		<version>7.0.0 RC0</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>RESOLVED</bug_status>
+		<resolution>FIXED</resolution>
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P5</priority>
+		<bug_severity>enhancement</bug_severity>
+		<target_milestone>later</target_milestone>
+		<everconfirmed>1</everconfirmed>
+		<reporter name="Philipp Pousset">philipp.pousset@brainlab.com</reporter>
+		<assigned_to name="Philipp Pousset (S&amp;N)">philipp.pousset.ext@brainlab.com</assigned_to>
+		<cc>mario.schubert@brainlab.com</cc>
+		<cc>martin.bauer@brainlab.com</cc>
+		<cc>reifenschneider.ext@brainlab.com</cc>
+		<cc>steffen.beck@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-3zS7IqbRpyv1JwhQXF0KemRUo0eG6VatKcJnXPqHn5A</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>652362</commentid>
+			<comment_count>0</comment_count>
+			<who name="Philipp Pousset">philipp.pousset@brainlab.com</who>
+			<bug_when>2019-07-12 08:57:46 +0200</bug_when>
+			<thetext>The visibility of the tracking array that is mounted on the pelvis (femur) is
+				indicated by a specific color-coding of the symbol "P" ("F"). These symbols don't
+				correlate with the symbols that are shown on the respective ClearLens instruments.
+				Using anatomical symbols (pelvis, femur) instead of "P"/ "F", the user might even
+				more clearly match the symbols to the respective tracking array.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>652363</commentid>
+			<comment_count>1</comment_count>
+			<who name="Philipp Pousset">philipp.pousset@brainlab.com</who>
+			<bug_when>2019-07-12 08:59:29 +0200</bug_when>
+			<thetext>--> set bug to confirmed and target milestone to 7.1.0</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>745570</commentid>
+			<comment_count>2</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2020-12-15 10:13:38 +0100</bug_when>
+			<thetext>accepted current target for HIP7v7.1 project --> changing symbols in software
+				from ‘P’/’F’ to anatomical symbols</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>766788</commentid>
+			<comment_count>3</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2021-06-18 07:32:15 +0200</bug_when>
+			<thetext>use new icons with anatomical symbols</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>787392</commentid>
+			<comment_count>4</comment_count>
+			<who name="Philipp Pousset (S&amp;N)">philipp.pousset.ext@brainlab.com</who>
+			<bug_when>2021-10-28 15:16:17 +0200</bug_when>
+			<thetext>Changes were implemented according to specifications. "P" and "F" were replaced
+				by anatomical symbols --> set status to "resolved - fixed"</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>832534</commentid>
+			<comment_count>5</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-10-14 13:19:08 +0200</bug_when>
+			<thetext>Hip 7.1 refers to project Hyperion (SNNA06) which was cancelled; and not to the
+				project HIP7 v7.1 for MDR release of HIP7 (SNNA030). --> changed target to late</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>128204</bug_id>
+		<creation_ts>2019-09-17 13:33:31 +0200</creation_ts>
+		<short_desc>WPF on-screen keyboard not available in Japanese</short_desc>
+		<delta_ts>2021-10-28 15:19:13 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>GUI</component>
+		<version>7.0.0 RC1</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>RESOLVED</bug_status>
+		<resolution>WONTFIX</resolution>
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords>i18n, i18n_other</keywords>
+		<priority>P5</priority>
+		<bug_severity>minor</bug_severity>
+		<target_milestone>later</target_milestone>
+		<everconfirmed>1</everconfirmed>
+		<reporter name="Uta Kreimeier">uta.kreimeier@brainlab.com</reporter>
+		<assigned_to name="Philipp Pousset (S&amp;N)">philipp.pousset.ext@brainlab.com</assigned_to>
+		<cc>mario.schubert@brainlab.com</cc>
+		<cc>tamara.menezes@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-iKnPsGL5yauYYFHymwTSQIwCtZt_-xPtwhxAVUFZiRI</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>665984</commentid>
+			<comment_count>0</comment_count>
+			<who name="Uta Kreimeier">uta.kreimeier@brainlab.com</who>
+			<bug_when>2019-09-17 13:33:31 +0200</bug_when>
+			<thetext>Hip 7.0 Software localization requested by S&amp;N: DE, FR, JP The Brainlab WPF
+				on-screen keyboard that is provided by Usability (MLL) is available in the following
+				languages: de-de en-us en-gb es fr it (Info of MLL of 12 Sep 2019) For Japanese, the
+				Brainlab WPF on-screen keyboard is not available. As a workaround, the Windows
+				on-screen keyboard could be displayed to the user. For the Windows on-screen
+				keyboard, Japanese is available.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>666298</commentid>
+			<comment_count>1</comment_count>
+			<who name="Philipp Pousset">philipp.pousset@brainlab.com</who>
+			<bug_when>2019-09-18 11:14:20 +0200</bug_when>
+			<thetext>According to usability requirements, the WPF on-screen keyboard needs to be
+				used. Thus, WPF on-screen keyboard shall NOT be exchanged by windows on-screen
+				keyboard (JP) to provide a HIP7 specific solution with regard to the GUI language
+				JP. Much more, since the WPF on-screen keyboard is also used by other applications,
+				the missing WPF keyboard in JP is more an issue in general. Therefore, this bug will
+				be closed (Resolved - Wontfix). A new bug 128243 was opened (R&D common -> domain/
+				gui -> plugin/wpf/wpftouchkeyboard) to request the WPF on-screen keyboard in JP.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>666303</commentid>
+			<comment_count>2</comment_count>
+			<who name="Philipp Pousset">philipp.pousset@brainlab.com</who>
+			<bug_when>2019-09-18 11:15:44 +0200</bug_when>
+			<thetext>--> set to closed-wontfix</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>666734</commentid>
+			<comment_count>3</comment_count>
+			<who name="Philipp Pousset">philipp.pousset@brainlab.com</who>
+			<bug_when>2019-09-19 12:37:35 +0200</bug_when>
+			<thetext>The WPF on-screen keyboard is used to enter the ASIS-ASIS distance on the
+				settings page of HIP7. The appropriate value needs to be entered using numbers. Due
+				to the international networking of the user, Arabic numerals are usually known.
+				Although a keyboard is not available in Japanese, an key in English is displayed.
+				With this in mind, severity was set to "minor". *** This bug has been marked as a
+				duplicate of bug 128243 ***</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>685676</commentid>
+			<comment_count>4</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2019-12-12 18:14:14 +0100</bug_when>
+			<thetext>As Hip 7.0.0 software is released now this bug will be closed.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>687086</commentid>
+			<comment_count>5</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2019-12-19 07:15:00 +0100</bug_when>
+			<thetext>As disscussed we Uta, any translation issues at brainlab will get a minor
+				importance. This leads to a situation that the normal LOKA ( list-of-known-anomalies
+				) process does not fit. Here only bugzilla-entries with an importance "normal" or
+				higher will be reported. So its necessary again to handle an open bug by every
+				application till issue at framework module is fixed.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>687087</commentid>
+			<comment_count>6</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2019-12-19 07:15:56 +0100</bug_when>
+			<thetext>Set target to later as issue needs to be fixed within underlaying wpf bundle</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>787393</commentid>
+			<comment_count>7</comment_count>
+			<who name="Philipp Pousset (S&amp;N)">philipp.pousset.ext@brainlab.com</who>
+			<bug_when>2021-10-28 15:19:13 +0200</bug_when>
+			<thetext>--> set status to "resolved - wontfix" as the bug 120243 associated with that
+				bug also won't be fixed</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>133837</bug_id>
+		<creation_ts>2020-03-19 09:32:34 +0100</creation_ts>
+		<short_desc>Language problem in one English string</short_desc>
+		<delta_ts>2022-10-14 13:21:54 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>GUI</component>
+		<version>7.0.0 RC2</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>IMPLEMENTED</bug_status>
+		<resolution />
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords>i18n_other</keywords>
+		<priority>P5</priority>
+		<bug_severity>minor</bug_severity>
+		<target_milestone>later</target_milestone>
+		<everconfirmed>1</everconfirmed>
+		<reporter name="Uta Kreimeier">uta.kreimeier@brainlab.com</reporter>
+		<assigned_to name="Philipp Pousset (S&amp;N)">philipp.pousset.ext@brainlab.com</assigned_to>
+		<cc>mario.schubert@brainlab.com</cc>
+		<cc>reifenschneider.ext@brainlab.com</cc>
+		<cc>tamara.menezes@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-BXg7ObpSCg_V-Zj6gFokVH3d7yPpEuLG5ext9kkAYq0</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>705858</commentid>
+			<comment_count>0</comment_count>
+			<who name="Uta Kreimeier">uta.kreimeier@brainlab.com</who>
+			<bug_when>2020-03-19 09:32:34 +0100</bug_when>
+			<thetext>Hip7 7.0.0 "hipres_text_alert_invalidPelvicTilt_message": The software
+				calculated a pelvic tilt outside the accepted range of +-22°. Use different plan or
+				continue navigation without automatic pelvic tilt and ASIS-ASIS distance
+				calculation. Found during testing of the Japanese version: “+-“ is very uncommon, it
+				should be “±” I double-checked with ATA, and +- is not great, but the users will
+				understand it. ± is better. Since I am not sure of the software can display ±
+				correctly and if it will be legible, I suggest to rephrase to: (...)outside the
+				accpeted range of +22° and -22°</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>705877</commentid>
+			<comment_count>1</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2020-03-19 10:26:39 +0100</bug_when>
+			<thetext>as the signs are not unambiguous to a user I would prefer to use anatomical
+				synonyms like (...)outside the accepted range of 22° anterior or posterior tilt.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>745612</commentid>
+			<comment_count>2</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2020-12-15 11:47:28 +0100</bug_when>
+			<thetext>Needs to be tested.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>745621</commentid>
+			<comment_count>3</comment_count>
+			<who name="Perforce Daemon">perforce-noreply@brainlab.com</who>
+			<bug_when>2020-12-15 13:06:13 +0100</bug_when>
+			<thetext>Perforce change 1861602 by mario.schubert on Tue Dec 15 13:06:05 +0100 2020
+				CHANGED: bugfixes according bugzilla Affected files:
+				//sw/dev/ortho/mario.schubert/Hip7x_trunc/plugin/igs/ortho/hip/HipWPFDesign/Resources/en/StringResources.xml#121
+				edit</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>764787</commentid>
+			<comment_count>4</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2021-05-19 07:18:12 +0200</bug_when>
+			<thetext>set correct importance</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>788791</commentid>
+			<comment_count>5</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2021-11-08 12:44:43 +0100</bug_when>
+			<thetext>corrected in xtool to: Calculated pelvic tilt is out of the accepted range for
+				navigation.' Additional text: 'The software calculated a pelvic tilt outside the
+				accepted range of 22° anterior or posterior tilt. Use different plan or continue
+				navigation without pelvic tilt and ASIS-ASIS distance calculation.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>832539</commentid>
+			<comment_count>6</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-10-14 13:21:54 +0200</bug_when>
+			<thetext>Hip 7.1 refers to project Hyperion (SNNA06) which was cancelled; and not to the
+				project HIP7 v7.1 for MDR release of HIP7 (SNNA030). --> changed target to later</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>129140</bug_id>
+		<creation_ts>2019-10-16 15:05:08 +0200</creation_ts>
+		<short_desc>Typo in one string</short_desc>
+		<delta_ts>2022-10-14 13:20:12 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>GUI</component>
+		<version>7.0.0 RC2</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>RESOLVED</bug_status>
+		<resolution>FIXED</resolution>
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords>i18n, i18n_other</keywords>
+		<priority>P5</priority>
+		<bug_severity>trivial</bug_severity>
+		<target_milestone>later</target_milestone>
+		<everconfirmed>1</everconfirmed>
+		<reporter name="Uta Kreimeier">uta.kreimeier@brainlab.com</reporter>
+		<assigned_to name="Philipp Pousset (S&amp;N)">philipp.pousset.ext@brainlab.com</assigned_to>
+		<cc>mario.schubert@brainlab.com</cc>
+		<cc>reifenschneider.ext@brainlab.com</cc>
+		<cc>steffen.beck@brainlab.com</cc>
+		<cc>tamara.menezes@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-8MvlyXU9pIxxvXlCem1CEA_PY-7TW3yflJsUUYb_-TY</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>672222</commentid>
+			<comment_count>0</comment_count>
+			<who name="Uta Kreimeier">uta.kreimeier@brainlab.com</who>
+			<bug_when>2019-10-16 15:05:08 +0200</bug_when>
+			<thetext>Hip7, file provided for localization
+				(//data/localization/surgery/_transfer/hip/7.0.0/Hip_en.blr@1559710):
+				"hipres_dataSelection_text": Traumacad Planning -> TraumaCad (see the Brainlab
+				Product Glossary
+				http://intranet.brainlab.net/company/branding/SitePages/Product%20Glossary.aspx)</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>672326</commentid>
+			<comment_count>1</comment_count>
+			<who name="Philipp Pousset">philipp.pousset@brainlab.com</who>
+			<bug_when>2019-10-17 08:04:06 +0200</bug_when>
+			<thetext>--> set status to confirmed, severity to "trivial" and target milestone to
+				7.1.0 The informational content of the term "TraumaCad Planning" is not reduced or
+				confusing in a manner so that any user instruction will be unclear or a false
+				clinical decision will be made based on this term. But the term should be written
+				according to the Brainlab Product Glossary. Thus, severity is set to trivial and
+				this bug will be fixed in HIP7 v7.1.0.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>745596</commentid>
+			<comment_count>2</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2020-12-15 11:06:23 +0100</bug_when>
+			<thetext>fixed within HIP7v7.1 software --> needs to be tested --> probably tests of
+				InApp-DataSelection needs to be adapted</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>745620</commentid>
+			<comment_count>3</comment_count>
+			<who name="Perforce Daemon">perforce-noreply@brainlab.com</who>
+			<bug_when>2020-12-15 13:06:11 +0100</bug_when>
+			<thetext>Perforce change 1861602 by mario.schubert on Tue Dec 15 13:06:05 +0100 2020
+				CHANGED: bugfixes according bugzilla Affected files:
+				//sw/dev/ortho/mario.schubert/Hip7x_trunc/plugin/igs/ortho/hip/HipWPFDesign/Resources/en/StringResources.xml#121
+				edit</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>787396</commentid>
+			<comment_count>4</comment_count>
+			<who name="Philipp Pousset (S&amp;N)">philipp.pousset.ext@brainlab.com</who>
+			<bug_when>2021-10-28 15:20:55 +0200</bug_when>
+			<thetext>--> set status to "resolved - fixed"</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>832536</commentid>
+			<comment_count>5</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-10-14 13:20:12 +0200</bug_when>
+			<thetext>Hip 7.1 refers to project Hyperion (SNNA06) which was cancelled; and not to the
+				project HIP7 v7.1 for MDR release of HIP7 (SNNA030). --> changed target to late</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>129136</bug_id>
+		<creation_ts>2019-10-16 14:35:13 +0200</creation_ts>
+		<short_desc>Superfluous white space in two strings</short_desc>
+		<delta_ts>2022-10-14 13:19:19 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>GUI</component>
+		<version>7.0.0 RC2</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>RESOLVED</bug_status>
+		<resolution>FIXED</resolution>
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords>i18n, i18n_other</keywords>
+		<priority>P5</priority>
+		<bug_severity>trivial</bug_severity>
+		<target_milestone>later</target_milestone>
+		<everconfirmed>1</everconfirmed>
+		<reporter name="Uta Kreimeier">uta.kreimeier@brainlab.com</reporter>
+		<assigned_to name="Philipp Pousset (S&amp;N)">philipp.pousset.ext@brainlab.com</assigned_to>
+		<cc>mario.schubert@brainlab.com</cc>
+		<cc>reifenschneider.ext@brainlab.com</cc>
+		<cc>steffen.beck@brainlab.com</cc>
+		<cc>tamara.menezes@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-cjqRf7c1ujR0AXj-KT61DZ1mQErz9ln_O1vlBYAxz8E</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>672195</commentid>
+			<comment_count>0</comment_count>
+			<who name="Uta Kreimeier">uta.kreimeier@brainlab.com</who>
+			<bug_when>2019-10-16 14:35:13 +0200</bug_when>
+			<thetext>Hip7, file provided for localization
+				(//data/localization/surgery/_transfer/hip/7.0.0/Hip_en.blr@1559710): In the
+				following two strings, the second sentence "Press..." starts with a superfluous
+				white space. This means that the text is not left-aligned. This is a tiny cosmetic
+				issue only that will be hardly visible to the user. I suggest to fix this for the
+				next major software update only. Strings with the issue:
+				"hipres_text_messagetext_xray_navi_triangle_supine_toLegSituation": The following
+				landmarks need to be reacquired: - ASIS treated side - ASIS non-treated side. Press
+				Re-Register to finish registration or Leg Situation to continue without cup
+				navigation. "hipres_text_messagetext_xray_navi_triangle_supine_toReport": The
+				following landmarks need to be reacquired: - ASIS treated side - ASIS non-treated
+				side. Press Re-Register to finish registration or Report to continue without cup
+				navigation.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>672327</commentid>
+			<comment_count>1</comment_count>
+			<who name="Philipp Pousset">philipp.pousset@brainlab.com</who>
+			<bug_when>2019-10-17 08:07:48 +0200</bug_when>
+			<thetext>--> set status to confirmed, severity to "trivial" and target milestone to
+				7.1.0 The informational content of the text message is not reduced or confusing in a
+				manner so that any user instruction will be unclear or a false clinical decision
+				will be made based on this 'cosmetic' issue. Thus, severity is set to trivial and
+				this bug will only be fixed in HIP7 v7.1.0.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>745589</commentid>
+			<comment_count>2</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2020-12-15 10:43:42 +0100</bug_when>
+			<thetext>fixed within HIP7v7.1 project and needs to be tested</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>745619</commentid>
+			<comment_count>3</comment_count>
+			<who name="Perforce Daemon">perforce-noreply@brainlab.com</who>
+			<bug_when>2020-12-15 13:06:09 +0100</bug_when>
+			<thetext>Perforce change 1861602 by mario.schubert on Tue Dec 15 13:06:05 +0100 2020
+				CHANGED: bugfixes according bugzilla Affected files:
+				//sw/dev/ortho/mario.schubert/Hip7x_trunc/plugin/igs/ortho/hip/HipWPFDesign/Resources/en/StringResources.xml#121
+				edit</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>787395</commentid>
+			<comment_count>4</comment_count>
+			<who name="Philipp Pousset (S&amp;N)">philipp.pousset.ext@brainlab.com</who>
+			<bug_when>2021-10-28 15:20:23 +0200</bug_when>
+			<thetext>--> set status to "resolved - fixed"</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>832535</commentid>
+			<comment_count>5</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-10-14 13:19:19 +0200</bug_when>
+			<thetext>Hip 7.1 refers to project Hyperion (SNNA06) which was cancelled; and not to the
+				project HIP7 v7.1 for MDR release of HIP7 (SNNA030). --> changed target to late</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>131513</bug_id>
+		<creation_ts>2019-12-18 13:32:33 +0100</creation_ts>
+		<short_desc>Localization: strings not captured for localization in Hip 7.0</short_desc>
+		<delta_ts>2022-10-14 13:20:28 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>GUI</component>
+		<version>7.0.0 RC3</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>CONFIRMED</bug_status>
+		<resolution />
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords>i18n, i18n_tool</keywords>
+		<priority>P5</priority>
+		<bug_severity>minor</bug_severity>
+		<target_milestone>later</target_milestone>
+		<everconfirmed>1</everconfirmed>
+		<reporter name="Beate Aschenbrenner">beate.aschenbrenner@brainlab.com</reporter>
+		<assigned_to name="Philipp Pousset (S&amp;N)">philipp.pousset.ext@brainlab.com</assigned_to>
+		<cc>beate.aschenbrenner@brainlab.com</cc>
+		<cc>mario.schubert@brainlab.com</cc>
+		<cc>philipp.pousset@brainlab.com</cc>
+		<cc>reifenschneider.ext@brainlab.com</cc>
+		<cc>steffen.beck@brainlab.com</cc>
+		<cc>tamara.menezes@brainlab.com</cc>
+		<cc>uta.kreimeier@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-1lJI_aQcD-Hrdgg5sNJHiSiMb8ICRyM5l-ClnnvTduw</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>686892</commentid>
+			<comment_count>0</comment_count>
+			<who name="Beate Aschenbrenner">beate.aschenbrenner@brainlab.com</who>
+			<bug_when>2019-12-18 13:32:33 +0100</bug_when>
+			<thetext>Strings of an alert message in the Hip7 7.0 have not been captured for
+				localization. See attached screenshot.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>686894</commentid>
+			<comment_count>1</comment_count>
+			<attachid>41015</attachid>
+			<who name="Beate Aschenbrenner">beate.aschenbrenner@brainlab.com</who>
+			<bug_when>2019-12-18 13:33:36 +0100</bug_when>
+			<thetext>Created attachment 41015 Alert message not translated- strings not captured</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>688192</commentid>
+			<comment_count>2</comment_count>
+			<who name="Philipp Pousset">philipp.pousset@brainlab.com</who>
+			<bug_when>2019-12-20 10:08:21 +0100</bug_when>
+			<thetext>--> set status to "confirmed", version to "7.0.0 RC3" and severity to "minor"
+				This bug applies to Re-Registration and TraumaCad Import Alerts. Both alert groups
+				are not assessed to be a risk mitigating measure. Moreover, even if the user doesn't
+				understand meaning of alerts belonging to these alert groups, the patient will not
+				be exposed to a risk caused by that misunderstanding. Thus, severity was set to
+				"minor". The missing alert groups were captured via screenshots. The screenshots are
+				stored in Perforce //data/localization/surgery/_transfer/hip/7.0.0/. The revision
+				number is 1616734. The localization transfer statement Hip7 (Windchill ID:
+				0000204231) needs to be changed in a later version of HIP7 v7.0. The alerts need to
+				be considered in all approved and running GUI translations of HIP7 (GUI REV 1.0 HIP
+				7.0 DE/FR/JP, 60713-70DE/FR/JP). Thus, target milestone was set to "7.0.0 RC4". Bug
+				was reassigned to localization team (Uta Kreimeier).</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>688253</commentid>
+			<comment_count>3</comment_count>
+			<who name="Uta Kreimeier">uta.kreimeier@brainlab.com</who>
+			<bug_when>2019-12-20 11:16:31 +0100</bug_when>
+			<thetext>HIP 7.0 DE is already released, and JP/FR are at proofreading stage. We
+				localize the version that corresponds to the Localization Transfer Statement.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>787398</commentid>
+			<comment_count>4</comment_count>
+			<who name="Philipp Pousset (S&amp;N)">philipp.pousset.ext@brainlab.com</who>
+			<bug_when>2021-10-28 15:27:04 +0200</bug_when>
+			<thetext>Groups will be broken up and a screenshot will be captured for all warnings -->
+				set target HIP7 v7.1</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>832537</commentid>
+			<comment_count>5</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-10-14 13:20:28 +0200</bug_when>
+			<thetext>Hip 7.1 refers to project Hyperion (SNNA06) which was cancelled; and not to the
+				project HIP7 v7.1 for MDR release of HIP7 (SNNA030). --> changed target to late</thetext>
+		</long_desc>
+		<attachment isobsolete="0" ispatch="0" isprivate="0">
+			<attachid>41015</attachid>
+			<date>2019-12-18 13:33:36 +0100</date>
+			<delta_ts>2019-12-18 13:33:36 +0100</delta_ts>
+			<desc>Alert message not translated- strings not captured</desc>
+			<filename>Alert message not translated.PNG</filename>
+			<type>image/png</type>
+			<size>35002</size>
+			<attacher name="Beate Aschenbrenner">beate.aschenbrenner@brainlab.com</attacher>
+			<token>1675068676-vjl5EoxMuBgB8bR6Ulzd16Qodtwgq43OKMftvpMSGiI</token>
+		</attachment>
+	</bug>
+	<bug>
+		<bug_id>151237</bug_id>
+		<creation_ts>2022-05-02 15:15:00 +0200</creation_ts>
+		<short_desc>Hip 7 doesn't show bone model with DX11-Error</short_desc>
+		<delta_ts>2022-05-18 13:19:30 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>GUI</component>
+		<version>7.0.0 Release</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>CONFIRMED</bug_status>
+		<resolution />
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P5</priority>
+		<bug_severity>minor</bug_severity>
+		<target_milestone>later</target_milestone>
+		<dependson>139029</dependson>
+		<dependson>140122</dependson>
+		<everconfirmed>1</everconfirmed>
+		<reporter name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</reporter>
+		<assigned_to name="Philipp Pousset (S&amp;N)">philipp.pousset.ext@brainlab.com</assigned_to>
+		<cc>mario.schubert.ext@brainlab.com</cc>
+		<cc>philipp.pousset.ext@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid>Comp-20201030-076746</cf_cid>
+		<token>1675068676-3KXTOhAGUb7cYVt0YX7XCu6h03AX8NcCdV6lX3jdYuI</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>815027</commentid>
+			<comment_count>0</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-05-02 15:15:00 +0200</bug_when>
+			<thetext> +++ This bug was initially created as a clone of Bug #139029 +++ Hip 7 doesnt
+				show bone models, logfiles sho DX11 error messsages: [14-Oct-2020
+				12:53:38.589][Platform][5528] DX11-Error : D3DCompile(shader0, strlen((const char
+				*)shader0), nullptr, nullptr, nullptr, "main_technique", "fx_5_0",
+				0x0/*shaderFlags*/, 0/*effectFlags*/, &ID3DBlob_0x0000000000000000,
+				&compilerMessages0); : 0x80004005 (Unspecified failure.) [14-Oct-2020
+				12:53:38.590][Paint3D][5528] DX11 effect compiler error
+				F:\Brainlab\appls\Hip_7.0.0\hip\<'memory>(1,1): error X3000: Illegal character in shader
+				file [14-Oct-2020 12:53:38.597][Paint3D][5528] RealizeFailed -- DX11 Effect could
+				not be created ! -> No StageRealizer could handle this RasterizationPrograms stage
+				program ! -> Failed to render this SimplexModel component as "SimplexModel" ! ->
+				Failed to render this Quad component as "Quad" ! -> Failed to render this
+				PaintContext3D component as "Container" ! ->
+				paintdx11::PaintContextDX11::renderAdditional() failed ! [14-Oct-2020
+				12:53:38.651][Paint3D][5528] RealizeFailed -- DX11 Effect could not be created ! ->
+				No StageRealizer could handle this RasterizationPrograms stage program ! -> Failed
+				to render this SimplexModel component as "SimplexModel" ! -> Failed to render this
+				Quad component as "Quad" ! -> Failed to render this PaintContext3D component as
+				"Container" ! -> paintdx11::PaintContextDX11::renderAdditional() failed ! deleting
+				the DX11 cache (C:\ProgramData\Brainlab\Cache) seems to have resolved it at least in
+				one instance</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>815028</commentid>
+			<comment_count>1</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-05-02 15:18:39 +0200</bug_when>
+			<thetext>is fixed with Framework 12.0.1 --> hip7 v7.0 uses framework 11</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>817334</commentid>
+			<comment_count>2</comment_count>
+			<who name="Philipp Pousset (S&amp;N)">philipp.pousset.ext@brainlab.com</who>
+			<bug_when>2022-05-18 13:19:30 +0200</bug_when>
+			<thetext>The bug was evaluated by the project team from a risk perspective. One can
+				conclude the following: In case 3D views are not displayed on the navigation page as
+				a consequence of the bug happening, the effectiveness of risk mitigating measures
+				linked to the risk cause Cs.38XPQH is slightly reduced. Displaying 3D hip views is
+				one measure out of several. The correct implementation is proven by performed
+				verification tests. With this in mind and as the bug occurs very rarely, the risk
+				rating after measure is still valid. Does the bug result in a new risk? The
+				presentation of the morphed hip bone serves as a visual support for the surgeon to
+				recognize the reference planes. Calculations are independent from the displayed bone
+				model. Thus, if the hip model is not shown, the surgeon might switch to conventional
+				surgery as the software obviously run into an error. An experienced user who knows
+				well the position of Inc./ Ant. values referring to either the AP-plane or
+				functional plane can still rely on calculated values as the calculation is
+				independent of the visualization. Consequentially, the occurrence of the bug doesn't
+				expose the patient to a risk. The importance of the bug was derated to "minor".
+				Following the strategy to only fix bugs which potentially expose the patient to a
+				risk, this bug will not be fixed within the project SNNA030 HIP7 v7.0.x MDR and is
+				set to "later".</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>142770</bug_id>
+		<creation_ts>2021-04-22 16:09:38 +0200</creation_ts>
+		<short_desc>Missing plausibility check if user selected wrong treatment side</short_desc>
+		<delta_ts>2022-10-14 13:34:29 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>Pelvis Registration</component>
+		<version>7.0.0 Release</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>IMPLEMENTED</bug_status>
+		<resolution />
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P5</priority>
+		<bug_severity>normal</bug_severity>
+		<target_milestone>later</target_milestone>
+		<blocked>143033</blocked>
+		<everconfirmed>1</everconfirmed>
+		<reporter name="Mario Schubert">mario.schubert@brainlab.com</reporter>
+		<assigned_to>f.reifenschneider@brainlab.com</assigned_to>
+		<cc>f.reifenschneider@brainlab.com</cc>
+		<cc>philipp.pousset.ext@brainlab.com</cc>
+		<cc>philipp.pousset@brainlab.com</cc>
+		<cc>reifenschneider.ext@brainlab.com</cc>
+		<cc>ruben.moreno@brainlab.com</cc>
+		<cc>steffen.beck@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-zIo2CMoYlZX8b65DzexkOd8wHmykHmvg2jB7914OVpY</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>762524</commentid>
+			<comment_count>0</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2021-04-22 16:09:38 +0200</bug_when>
+			<thetext>According to feedback of Prof. Davis, HIP7v7.0 does not give a warning message
+				if acquired landmarks of pelvis registration does to fit to selected treatment side.
+				In HIP6 their was a plausibility check for "peak of Psoas Valley" landmark. Here two
+				possible sources of error were possible (1) peak of Psoas Valley was acquired
+				posterior instead of anterior (2) wrong treatment side In HIP7 this landmark was
+				removed and the radius of acetabular sphere used instead. So probably this treatment
+				side check does not exist anymore. It needs to be evaluated how to check the correct
+				treatment side for a) lateral cased b) supine cases</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>762525</commentid>
+			<comment_count>1</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2021-04-22 16:12:10 +0200</bug_when>
+			<thetext>added cc list</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>762526</commentid>
+			<comment_count>2</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2021-04-22 16:15:06 +0200</bug_when>
+			<thetext>added franzi on cc</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>765057</commentid>
+			<comment_count>3</comment_count>
+			<who name="">f.reifenschneider@brainlab.com</who>
+			<bug_when>2021-05-21 13:27:39 +0200</bug_when>
+			<thetext>Idea from MO: add a plausibility check that checks in comparison to the plane
+				defined by ASIS-ASIS and acetabular center the position of the registered cavity
+				points. On average 83.3% are posterior to that plane In worst case 58% are posterior
+				to that plane A plausibility check can be defined after pelvis registration that
+				checks the position of the cavity points. If 50% are anterior to the plane a warning
+				can be given out. Decision on what the user can do than is pending: a) re-register
+				cavity b) check and adapt treatment side c) ignore and continue</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>780149</commentid>
+			<comment_count>4</comment_count>
+			<attachid>50040</attachid>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2021-09-14 11:02:55 +0200</bug_when>
+			<thetext>Created attachment 50040 error message dialog</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>780150</commentid>
+			<comment_count>5</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2021-09-14 11:06:21 +0200</bug_when>
+			<thetext>implemented as a proposal to offer a) re-register cavity b) check and adapt
+				treatment side Option c) is currently not offered. Please verify if this add.
+				plausibility check shall be used and if the error message is correct. At the moment
+				in lateral cases a different plausibility check is triggered prior to this later
+				check, this needs to be evaluated.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>780152</commentid>
+			<comment_count>6</comment_count>
+			<attachid>50040</attachid>
+			<who name="">ruben.moreno@brainlab.com</who>
+			<bug_when>2021-09-14 11:11:46 +0200</bug_when>
+			<thetext>Comment on attachment 50040 error message dialog I think we could simplify the
+				text. Something like "The registration of the acetabulum is not compatible with the
+				selected treated side. Please correct the selected treated side or re-register the
+				cavity points" This aside, I think it is "treated side" in the button, right?</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>780160</commentid>
+			<comment_count>7</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2021-09-14 11:19:39 +0200</bug_when>
+			<thetext>You can specify how to name the button. The text should not be too long as
+				otherwise the text size will be reduced.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>787424</commentid>
+			<comment_count>8</comment_count>
+			<who name="Philipp Pousset (S&amp;N)">philipp.pousset.ext@brainlab.com</who>
+			<bug_when>2021-10-28 16:02:40 +0200</bug_when>
+			<thetext>Specifications concerning PC mentioned in this bug need to be reviewed and
+				updated if needed.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>789410</commentid>
+			<comment_count>9</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2021-11-11 08:48:42 +0100</bug_when>
+			<thetext>specification updated and added in xtool</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>832560</commentid>
+			<comment_count>10</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-10-14 13:34:29 +0200</bug_when>
+			<thetext>Hip 7.1 refers to project Hyperion (SNNA06) which was cancelled; and not to the
+				project HIP7 v7.1 for MDR release of HIP7 (SNNA030). --> changed target to later</thetext>
+		</long_desc>
+		<attachment isobsolete="0" ispatch="0" isprivate="0">
+			<attachid>50040</attachid>
+			<date>2021-09-14 11:02:55 +0200</date>
+			<delta_ts>2021-09-14 11:02:55 +0200</delta_ts>
+			<desc>error message dialog</desc>
+			<filename>registrationWithWrongTreatmentSide.png</filename>
+			<type>image/png</type>
+			<size>29480</size>
+			<attacher name="Mario Schubert">mario.schubert@brainlab.com</attacher>
+			<token>1675068676-sUhcgSWgwwJdZ87fb40HemSfzu3DxmWjqpADWI3uy74</token>
+		</attachment>
+	</bug>
+	<bug>
+		<bug_id>138288</bug_id>
+		<creation_ts>2020-10-08 11:38:20 +0200</creation_ts>
+		<short_desc>Footswitch end of sale</short_desc>
+		<delta_ts>2022-10-14 13:29:03 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>General: miscellaneous</component>
+		<version>7.0.0 Release</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>IMPLEMENTED</bug_status>
+		<resolution />
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P1</priority>
+		<bug_severity>enhancement</bug_severity>
+		<target_milestone>later</target_milestone>
+		<everconfirmed>1</everconfirmed>
+		<reporter>f.reifenschneider@brainlab.com</reporter>
+		<assigned_to name="Philipp Pousset (S&amp;N)">philipp.pousset.ext@brainlab.com</assigned_to>
+		<cc>f.reifenschneider@brainlab.com</cc>
+		<cc>mario.schubert@brainlab.com</cc>
+		<cc>reifenschneider.ext@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-ZZuFxoGopZegGI5veJqsa0cpZvYpIbv1hQEWKgMN55U</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>735670</commentid>
+			<comment_count>0</comment_count>
+			<who name="">f.reifenschneider@brainlab.com</who>
+			<bug_when>2020-10-08 11:38:20 +0200</bug_when>
+			<thetext>The footswitch shall no longer be supported in the HIP7 v7.1 as it is set to
+				end of sales</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>745552</commentid>
+			<comment_count>1</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2020-12-15 09:59:41 +0100</bug_when>
+			<thetext>we decided to remove footswitch functionality from scope of HIP7v7.1</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>784668</commentid>
+			<comment_count>2</comment_count>
+			<who name="Philipp Pousset (S&amp;N)">philipp.pousset.ext@brainlab.com</who>
+			<bug_when>2021-10-15 11:55:37 +0200</bug_when>
+			<thetext>Footswitch will no longer be initialized for use with HIP7. Functionality was
+				excluded. Library still exists in a sub-module as Knee application is still using
+				the tool. -> set status to "implemented"</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>832546</commentid>
+			<comment_count>3</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-10-14 13:29:03 +0200</bug_when>
+			<thetext>Hip 7.1 refers to project Hyperion (SNNA06) which was cancelled; and not to the
+				project HIP7 v7.1 for MDR release of HIP7 (SNNA030). --> changed target to later</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>137873</bug_id>
+		<creation_ts>2020-09-22 08:09:03 +0200</creation_ts>
+		<short_desc>Software modification for landmark planning</short_desc>
+		<delta_ts>2021-10-08 11:02:15 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>Traumacad and DICOM Integration</component>
+		<version>7.0.0 Release</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>CONFIRMED</bug_status>
+		<resolution />
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P5</priority>
+		<bug_severity>enhancement</bug_severity>
+		<target_milestone>later</target_milestone>
+		<everconfirmed>1</everconfirmed>
+		<reporter>f.reifenschneider@brainlab.com</reporter>
+		<assigned_to name="Mario Schubert (S&amp;N)">mario.schubert.ext@brainlab.com</assigned_to>
+		<cc>f.reifenschneider@brainlab.com</cc>
+		<cc>mario.schubert@brainlab.com</cc>
+		<cc>martin.bauer@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-6TsKnSKY5O-tLuaw3IIQ007wsVj8SL1XlBwMFKsMLpU</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>733129</commentid>
+			<comment_count>0</comment_count>
+			<who name="">f.reifenschneider@brainlab.com</who>
+			<bug_when>2020-09-22 08:09:03 +0200</bug_when>
+			<thetext>Adapting the software to enable or modify landmarks planned in Traumacad can
+				support the surgeon during OR</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>745554</commentid>
+			<comment_count>1</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2020-12-15 10:02:14 +0100</bug_when>
+			<thetext>first prototype implementation available in software, but due to time
+				constraints of the project this has to be considered in a later version</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>137872</bug_id>
+		<creation_ts>2020-09-22 08:01:58 +0200</creation_ts>
+		<short_desc>Automatic landmark detection</short_desc>
+		<delta_ts>2021-10-04 15:06:59 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>Traumacad and DICOM Integration</component>
+		<version>7.0.0 Release</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>CONFIRMED</bug_status>
+		<resolution />
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P1</priority>
+		<bug_severity>enhancement</bug_severity>
+		<target_milestone>later</target_milestone>
+		<everconfirmed>1</everconfirmed>
+		<reporter>f.reifenschneider@brainlab.com</reporter>
+		<assigned_to name="Philipp Pousset (S&amp;N)">philipp.pousset.ext@brainlab.com</assigned_to>
+		<cc>f.reifenschneider@brainlab.com</cc>
+		<cc>mario.schubert@brainlab.com</cc>
+		<cc>martin.bauer@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-XHDPSA701FzVf9a-sYS2BnIYZnot-sSv3QFJG-U_ulo</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>733127</commentid>
+			<comment_count>0</comment_count>
+			<who name="">f.reifenschneider@brainlab.com</who>
+			<bug_when>2020-09-22 08:01:58 +0200</bug_when>
+			<thetext>An automatic landmark detection or atlas for landmark registration in Traumacad
+				could support the user during planning. Spine team is working on that (contact
+				partner: SGN)</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>745545</commentid>
+			<comment_count>1</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2020-12-15 09:38:48 +0100</bug_when>
+			<thetext>As this is more a feature request on Traumacad side, we decided to do no
+				implementation within Hip7v7.1 project. I will set target of this enhancement bug to
+				"later"</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>137871</bug_id>
+		<creation_ts>2020-09-22 07:58:12 +0200</creation_ts>
+		<short_desc>Patient specific plausability checks</short_desc>
+		<delta_ts>2021-10-04 15:07:00 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>General: miscellaneous</component>
+		<version>7.0.0 Release</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>SCHEDULED</bug_status>
+		<resolution />
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P5</priority>
+		<bug_severity>enhancement</bug_severity>
+		<target_milestone>later</target_milestone>
+		<everconfirmed>1</everconfirmed>
+		<reporter>f.reifenschneider@brainlab.com</reporter>
+		<assigned_to name="Philipp Pousset (S&amp;N)">philipp.pousset.ext@brainlab.com</assigned_to>
+		<cc>f.reifenschneider@brainlab.com</cc>
+		<cc>mario.schubert@brainlab.com</cc>
+		<cc>martin.bauer@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-WLQJFmFEaG8Qo8yxWuxFHc8s8KMDC_ajVd8ZjlralT8</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>733126</commentid>
+			<comment_count>0</comment_count>
+			<who name="">f.reifenschneider@brainlab.com</who>
+			<bug_when>2020-09-22 07:58:12 +0200</bug_when>
+			<thetext>To adapt the range for plausibility checks it could help to have patient
+				specific plausibility checks in terms of gender, weight, height. Here a database
+				like ANSUR II might be helpful. First steps: chekc range of values of the software
+				plausibility check ASIS-COR-ASIS Check range of values of Traumacad plausibility for
+				ASIS distance to SI distance</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>745556</commentid>
+			<comment_count>1</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2020-12-15 10:04:02 +0100</bug_when>
+			<thetext>Due to time constraints of the project this issue has to be considered in a
+				later version</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>137869</bug_id>
+		<creation_ts>2020-09-21 17:12:36 +0200</creation_ts>
+		<short_desc>Adaption of navigation page to avoid misinterpetration of cup position as depth</short_desc>
+		<delta_ts>2022-10-14 13:28:49 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>GUI</component>
+		<version>7.0.0 Release</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>IMPLEMENTED</bug_status>
+		<resolution />
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P1</priority>
+		<bug_severity>enhancement</bug_severity>
+		<target_milestone>later</target_milestone>
+		<everconfirmed>1</everconfirmed>
+		<reporter>f.reifenschneider@brainlab.com</reporter>
+		<assigned_to>ruben.moreno@brainlab.com</assigned_to>
+		<cc>f.reifenschneider@brainlab.com</cc>
+		<cc>mario.schubert@brainlab.com</cc>
+		<cc>philipp.pousset.ext@brainlab.com</cc>
+		<cc>philipp.pousset@brainlab.com</cc>
+		<cc>reifenschneider.ext@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-0AIkTQrTC6VIJZthLGoAJAERekz6hEBK4SBgt1Ai98E</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>733110</commentid>
+			<comment_count>0</comment_count>
+			<who name="">f.reifenschneider@brainlab.com</who>
+			<bug_when>2020-09-21 17:12:36 +0200</bug_when>
+			<thetext>The current presentation of the cup navigation can lead to a misinterpretation
+				of the cup position as depth information of the current cup position and should
+				therefore be adapted</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>745547</commentid>
+			<comment_count>1</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2020-12-15 09:42:28 +0100</bug_when>
+			<thetext>* Refer to Xtool Requirement: Rq.357R77 * Analyse during usability tests * Set
+				to Target: 7.1</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>765010</commentid>
+			<comment_count>2</comment_count>
+			<who name="Philipp Pousset">philipp.pousset@brainlab.com</who>
+			<bug_when>2021-05-20 18:00:53 +0200</bug_when>
+			<thetext>Please consider this bug developing features from usabiliy/ UI-design
+				perspective.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>766789</commentid>
+			<comment_count>3</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2021-06-18 07:38:43 +0200</bug_when>
+			<thetext>for navigation on a AP-X-ray: we decided to use only the original X-ray without
+				showing any template information</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>784671</commentid>
+			<comment_count>4</comment_count>
+			<who name="Philipp Pousset (S&amp;N)">philipp.pousset.ext@brainlab.com</who>
+			<bug_when>2021-10-15 12:00:46 +0200</bug_when>
+			<thetext>Solution as suggested was implemented. -> set status to "implemented"</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>832545</commentid>
+			<comment_count>5</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-10-14 13:28:49 +0200</bug_when>
+			<thetext>Hip 7.1 refers to project Hyperion (SNNA06) which was cancelled; and not to the
+				project HIP7 v7.1 for MDR release of HIP7 (SNNA030). --> changed target to later</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>137867</bug_id>
+		<creation_ts>2020-09-21 17:04:18 +0200</creation_ts>
+		<short_desc>Adjust acetabular registration (according to size)</short_desc>
+		<delta_ts>2022-10-14 13:28:33 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>Pelvis Registration</component>
+		<version>7.0.0 Release</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>CONFIRMED</bug_status>
+		<resolution />
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P1</priority>
+		<bug_severity>enhancement</bug_severity>
+		<target_milestone>later</target_milestone>
+		<everconfirmed>1</everconfirmed>
+		<reporter>f.reifenschneider@brainlab.com</reporter>
+		<assigned_to name="Mario Schubert (S&amp;N)">mario.schubert.ext@brainlab.com</assigned_to>
+		<cc>f.reifenschneider@brainlab.com</cc>
+		<cc>mario.schubert@brainlab.com</cc>
+		<cc>martin.bauer@brainlab.com</cc>
+		<cc>reifenschneider.ext@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-w0RgIHVQJtV8FArtnSv8r9_ddbRRutfx3B1UgD78C2w</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>733107</commentid>
+			<comment_count>0</comment_count>
+			<who name="">f.reifenschneider@brainlab.com</who>
+			<bug_when>2020-09-21 17:04:18 +0200</bug_when>
+			<thetext>Acetabular registration should be adapted to match the cavity size or the
+				templated size. Since in small cavities it is hard to acquire the required amount of
+				points. A bigger size should be equivalent to registering more points, while in
+				small sizes the necessary points can be reduced.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>745530</commentid>
+			<comment_count>1</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2020-12-15 08:58:24 +0100</bug_when>
+			<thetext>We agreed to implement this enhancement within running project of HIP7v7.1</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>832544</commentid>
+			<comment_count>2</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-10-14 13:28:33 +0200</bug_when>
+			<thetext>Hip 7.1 refers to project Hyperion (SNNA06) which was cancelled; and not to the
+				project HIP7 v7.1 for MDR release of HIP7 (SNNA030). --> changed target to later</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>137865</bug_id>
+		<creation_ts>2020-09-21 16:58:33 +0200</creation_ts>
+		<short_desc>Integration of the teardrop distance in software</short_desc>
+		<delta_ts>2021-10-04 15:06:52 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>Pelvis Registration</component>
+		<version>7.0.0 Release</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>CONFIRMED</bug_status>
+		<resolution />
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P1</priority>
+		<bug_severity>enhancement</bug_severity>
+		<target_milestone>later</target_milestone>
+		<everconfirmed>1</everconfirmed>
+		<reporter>f.reifenschneider@brainlab.com</reporter>
+		<assigned_to name="Philipp Pousset (S&amp;N)">philipp.pousset.ext@brainlab.com</assigned_to>
+		<cc>f.reifenschneider@brainlab.com</cc>
+		<cc>mario.schubert@brainlab.com</cc>
+		<cc>martin.bauer@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-1XbcXycZ9KLzdUAduUn0vpe-SfQDMkJGklAWqvJIcT8</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>733104</commentid>
+			<comment_count>0</comment_count>
+			<who name="">f.reifenschneider@brainlab.com</who>
+			<bug_when>2020-09-21 16:58:33 +0200</bug_when>
+			<thetext>Concerns from Prof. Davis regarding the that the pelvis might have a different
+				shape when the ASIS distnace is below 200mm or above 260mm might have an influence
+				on the software. MO: agreed that the teardrop distance which is currently
+				implemented as a constant in the software depending on the gender could also be used
+				in the software with the actual values from the x-ray.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>745529</commentid>
+			<comment_count>1</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2020-12-15 08:55:47 +0100</bug_when>
+			<thetext>Lateral cases with postoperative CT data are only available from Birmingham
+				study. With these data this concern is not evident. We agreed that its necessary to
+				gather further data to evaluate this issue. This will be considered in PMS of
+				HIP7v7.1. So no implementation will be done for HIP7v7.1 and the target of this bug
+				will be set to "later".</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>149775</bug_id>
+		<creation_ts>2022-03-09 15:58:49 +0100</creation_ts>
+		<short_desc>Store bar keeps running when offset or leg length values change</short_desc>
+		<delta_ts>2022-10-14 13:35:49 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>Leg Situation</component>
+		<version>7.1 development</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>CONFIRMED</bug_status>
+		<resolution />
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P5</priority>
+		<bug_severity>normal</bug_severity>
+		<target_milestone>later</target_milestone>
+		<everconfirmed>1</everconfirmed>
+		<reporter name="Christoph Hahn (S&amp;N)">christoph.hahn.ext@brainlab.com</reporter>
+		<assigned_to name="Mario Schubert (S&amp;N)">mario.schubert.ext@brainlab.com</assigned_to>
+		<cc>reifenschneider.ext@brainlab.com</cc>
+		<cc>steffen.beck.ext@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-0DOVo-q-fvpchY1BUT4TWJkRcAApJXlps5Ezr2sSoLk</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>806503</commentid>
+			<comment_count>0</comment_count>
+			<who name="Christoph Hahn (S&amp;N)">christoph.hahn.ext@brainlab.com</who>
+			<bug_when>2022-03-09 15:58:49 +0100</bug_when>
+			<thetext>The store bar keeps running when the leg is moved and offset and leg length
+				values change. The plausibility check here works in principal but is not restrictive
+				enough.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>806504</commentid>
+			<comment_count>1</comment_count>
+			<who name="Christoph Hahn (S&amp;N)">christoph.hahn.ext@brainlab.com</who>
+			<bug_when>2022-03-09 15:59:11 +0100</bug_when>
+			<thetext>Analyzed bug.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>832565</commentid>
+			<comment_count>2</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-10-14 13:35:49 +0200</bug_when>
+			<thetext>Hip 7.1 refers to project Hyperion (SNNA06) which was cancelled; and not to the
+				project HIP7 v7.1 for MDR release of HIP7 (SNNA030). --> changed target to later</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>149774</bug_id>
+		<creation_ts>2022-03-09 15:55:22 +0100</creation_ts>
+		<short_desc>Invalid Implant Selection dialog closes Broach Implant Confirmation Dialog</short_desc>
+		<delta_ts>2022-10-14 13:35:38 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>General: miscellaneous</component>
+		<version>7.1 development</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>CONFIRMED</bug_status>
+		<resolution />
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P5</priority>
+		<bug_severity>minor</bug_severity>
+		<target_milestone>later</target_milestone>
+		<everconfirmed>1</everconfirmed>
+		<reporter name="Christoph Hahn (S&amp;N)">christoph.hahn.ext@brainlab.com</reporter>
+		<assigned_to name="Christoph Hahn (S&amp;N)">christoph.hahn.ext@brainlab.com</assigned_to>
+		<cc>mario.schubert.ext@brainlab.com</cc>
+		<cc>reifenschneider.ext@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-tLQZi_LCYBG6UwnKMTVEzvx5H3-GpYZSDhd2zKNQgRo</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>806499</commentid>
+			<comment_count>0</comment_count>
+			<who name="Christoph Hahn (S&amp;N)">christoph.hahn.ext@brainlab.com</who>
+			<bug_when>2022-03-09 15:55:22 +0100</bug_when>
+			<thetext>When selecting an invalid implant combination on the Broach Implant
+				Confirmation Dialog the dialog closes and the new invalid implant page is shown.
+				When the page is left again the user is on the Broach Verification Page (dialog
+				stays closed).</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>806501</commentid>
+			<comment_count>1</comment_count>
+			<who name="Christoph Hahn (S&amp;N)">christoph.hahn.ext@brainlab.com</who>
+			<bug_when>2022-03-09 15:56:04 +0100</bug_when>
+			<thetext>Analyzed Bug.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>832564</commentid>
+			<comment_count>2</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-10-14 13:35:38 +0200</bug_when>
+			<thetext>Hip 7.1 refers to project Hyperion (SNNA06) which was cancelled; and not to the
+				project HIP7 v7.1 for MDR release of HIP7 (SNNA030). --> changed target to later</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>149773</bug_id>
+		<creation_ts>2022-03-09 15:37:57 +0100</creation_ts>
+		<short_desc>Plausibility Check Pinless Surgery Setup</short_desc>
+		<delta_ts>2022-10-14 13:35:25 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>Pelvis Registration</component>
+		<version>7.1 development</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>CONFIRMED</bug_status>
+		<resolution />
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P5</priority>
+		<bug_severity>normal</bug_severity>
+		<target_milestone>later</target_milestone>
+		<everconfirmed>1</everconfirmed>
+		<reporter name="Christoph Hahn (S&amp;N)">christoph.hahn.ext@brainlab.com</reporter>
+		<assigned_to name="Mario Schubert (S&amp;N)">mario.schubert.ext@brainlab.com</assigned_to>
+		<cc>reifenschneider.ext@brainlab.com</cc>
+		<cc>steffen.beck.ext@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-b4qTLoqiZUkS-lX5zX3y-wwtLRpRM7pGpSGqDv3rAp0</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>806492</commentid>
+			<comment_count>0</comment_count>
+			<who name="Christoph Hahn (S&amp;N)">christoph.hahn.ext@brainlab.com</who>
+			<bug_when>2022-03-09 15:37:57 +0100</bug_when>
+			<thetext>Plausibility check on surgery setup page strongly relays on correct orientation
+				of femur array. If the two spheres face towards the pelvis array, the message of
+				placing the femur array more distally disappears a lot sooner than when the array is
+				oriented as intended. This may need to be considered in RA at a later point</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>806493</commentid>
+			<comment_count>1</comment_count>
+			<who name="Christoph Hahn (S&amp;N)">christoph.hahn.ext@brainlab.com</who>
+			<bug_when>2022-03-09 15:40:29 +0100</bug_when>
+			<thetext>Bug was analyzed.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>832563</commentid>
+			<comment_count>2</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-10-14 13:35:25 +0200</bug_when>
+			<thetext>Hip 7.1 refers to project Hyperion (SNNA06) which was cancelled; and not to the
+				project HIP7 v7.1 for MDR release of HIP7 (SNNA030). --> changed target to later</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>143033</bug_id>
+		<creation_ts>2021-05-07 14:41:40 +0200</creation_ts>
+		<short_desc>Plausibility check based on distance CoR to midplane needs to be re-evaluated</short_desc>
+		<delta_ts>2022-10-14 13:35:03 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>Pelvis Registration</component>
+		<version>7.1 development</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>CONFIRMED</bug_status>
+		<resolution />
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P5</priority>
+		<bug_severity>normal</bug_severity>
+		<target_milestone>later</target_milestone>
+		<dependson>142770</dependson>
+		<everconfirmed>1</everconfirmed>
+		<reporter name="Mario Schubert">mario.schubert@brainlab.com</reporter>
+		<assigned_to name="Mario Schubert (S&amp;N)">mario.schubert.ext@brainlab.com</assigned_to>
+		<cc>philipp.pousset.ext@brainlab.com</cc>
+		<cc>reifenschneider.ext@brainlab.com</cc>
+		<cc>steffen.beck@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-9A8XyxRx0yiKelAWMREmYh2x4WdNctjbYq4IgZsmwrE</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>764183</commentid>
+			<comment_count>0</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2021-05-07 14:41:40 +0200</bug_when>
+			<thetext>This check is based on a acetabular distance ( teardrop distance + radius of
+				acetabular sphere ). Sometimes this check brings false positive results and prompt
+				user to repeat registration. Especially in connection to wrong selected treatment
+				side this check needs to be re-evaluated.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>787428</commentid>
+			<comment_count>1</comment_count>
+			<who name="Philipp Pousset (S&amp;N)">philipp.pousset.ext@brainlab.com</who>
+			<bug_when>2021-10-28 16:03:43 +0200</bug_when>
+			<thetext>Specifications need to be reviewed and updated where needed. Also mentioned in
+				bug</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>787433</commentid>
+			<comment_count>2</comment_count>
+			<who name="Philipp Pousset (S&amp;N)">philipp.pousset.ext@brainlab.com</who>
+			<bug_when>2021-10-28 16:05:34 +0200</bug_when>
+			<thetext>... bug 142770.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>832561</commentid>
+			<comment_count>3</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-10-14 13:34:51 +0200</bug_when>
+			<thetext>Hip 7.1 refers to project Hyperion (SNNA06) which was cancelled; and not to the
+				project HIP7 v7.1 for MDR release of HIP7 (SNNA030). --> changed target to later</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>832562</commentid>
+			<comment_count>4</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-10-14 13:35:03 +0200</bug_when>
+			<thetext>Hip 7.1 refers to project Hyperion (SNNA06) which was cancelled; and not to the
+				project HIP7 v7.1 for MDR release of HIP7 (SNNA030). --> changed target to later</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>142547</bug_id>
+		<creation_ts>2021-04-12 17:44:25 +0200</creation_ts>
+		<short_desc>Reset pivoting point aquisition accuracy</short_desc>
+		<delta_ts>2022-10-14 13:33:55 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>Pelvis Registration</component>
+		<version>7.1 development</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>CONFIRMED</bug_status>
+		<resolution />
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P5</priority>
+		<bug_severity>normal</bug_severity>
+		<target_milestone>later</target_milestone>
+		<everconfirmed>1</everconfirmed>
+		<reporter>f.reifenschneider@brainlab.com</reporter>
+		<assigned_to name="Mario Schubert (S&amp;N)">mario.schubert.ext@brainlab.com</assigned_to>
+		<cc>reifenschneider.ext@brainlab.com</cc>
+		<cc>steffen.beck@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-9Deriq0O6XutkxK-9mBeGOFPQaTdBUT58F9g79PG9P4</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>760687</commentid>
+			<comment_count>0</comment_count>
+			<who name="">f.reifenschneider@brainlab.com</who>
+			<bug_when>2021-04-12 17:44:25 +0200</bug_when>
+			<thetext>Reset the pivoting values to the values specified in Sp.38DPCK (When the
+				software detects that the pointer is rotated around the point of interest, then the
+				point will be stored. The software detects the movements as deliberated pivoting
+				when the pointer tip does not move more than 1 mm and another detected point (handle
+				point) with the distance of 400mm from the tip is moving at least 20 mm in 20
+				frames.) New points such as ankle and epicondyles require testing in cadaver lab or
+				suitable test object to define pivoting</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>832558</commentid>
+			<comment_count>1</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-10-14 13:33:55 +0200</bug_when>
+			<thetext>Hip 7.1 refers to project Hyperion (SNNA06) which was cancelled; and not to the
+				project HIP7 v7.1 for MDR release of HIP7 (SNNA030). --> changed target to later</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>142536</bug_id>
+		<creation_ts>2021-04-12 16:10:17 +0200</creation_ts>
+		<short_desc>Minimal pineless array distance</short_desc>
+		<delta_ts>2022-10-14 13:33:43 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>Pelvis Registration</component>
+		<version>7.1 development</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>IMPLEMENTED</bug_status>
+		<resolution />
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P5</priority>
+		<bug_severity>normal</bug_severity>
+		<target_milestone>later</target_milestone>
+		<everconfirmed>1</everconfirmed>
+		<reporter>f.reifenschneider@brainlab.com</reporter>
+		<assigned_to name="Mario Schubert (S&amp;N)">mario.schubert.ext@brainlab.com</assigned_to>
+		<cc>reifenschneider.ext@brainlab.com</cc>
+		<cc>steffen.beck@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-TR0ADEj65IoMCeEklinddZDUCR1pjL9CyJdfKNTp5rw</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>760624</commentid>
+			<comment_count>0</comment_count>
+			<who name="">f.reifenschneider@brainlab.com</who>
+			<bug_when>2021-04-12 16:10:17 +0200</bug_when>
+			<thetext>BVO: Pinless array position: we’ve had feedback (e.g. from Ed Davis) that 400mm
+				min distance is too large in some patients. So we should discuss whether we should
+				reduce it. After checking the ANSUR II Database a reduction to 300mm shall be
+				implemented.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>760715</commentid>
+			<comment_count>1</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2021-04-13 09:56:10 +0200</bug_when>
+			<thetext>will be changed in version 7.1.0.928</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>760717</commentid>
+			<comment_count>2</comment_count>
+			<who name="Perforce Daemon">perforce-noreply@brainlab.com</who>
+			<bug_when>2021-04-13 10:00:47 +0200</bug_when>
+			<thetext>Perforce change 1954875 by mario.schubert on Tue Apr 13 10:00:43 +0200 2021
+				BUGFIX: change minimal distance between pelvic array ( rotational joint of array )
+				and femur array from 400mm to 300mm Affected files:
+				//sw/dev/ortho/mario.schubert/Hip7x_trunc/plugin/igs/ortho/hip/hipregcalculations/src/StatisticalAnatomicConstants.cpp#4
+				edit</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>832557</commentid>
+			<comment_count>3</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-10-14 13:33:43 +0200</bug_when>
+			<thetext>Hip 7.1 refers to project Hyperion (SNNA06) which was cancelled; and not to the
+				project HIP7 v7.1 for MDR release of HIP7 (SNNA030). --> changed target to later</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>142333</bug_id>
+		<creation_ts>2021-03-31 15:48:04 +0200</creation_ts>
+		<short_desc>Implant selection to choose compatible implant components</short_desc>
+		<delta_ts>2022-10-14 13:33:20 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>GUI</component>
+		<version>7.1 development</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>CONFIRMED</bug_status>
+		<resolution />
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P5</priority>
+		<bug_severity>normal</bug_severity>
+		<target_milestone>later</target_milestone>
+		<everconfirmed>1</everconfirmed>
+		<reporter>f.reifenschneider@brainlab.com</reporter>
+		<assigned_to name="Philipp Pousset (S&amp;N)">philipp.pousset.ext@brainlab.com</assigned_to>
+		<cc>mario.schubert@brainlab.com</cc>
+		<cc>reifenschneider.ext@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-UsmsNDlSjkX34NBi3FMD3jZvpAz-KQOQKRe2mLYmf98</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>759203</commentid>
+			<comment_count>0</comment_count>
+			<who name="">f.reifenschneider@brainlab.com</who>
+			<bug_when>2021-03-31 15:48:04 +0200</bug_when>
+			<thetext>Rather than showing in the implant component fields 'Please select compatible
+				implant...' show that as a global note since the user does not necessarily need to
+				change the component where this message appears</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>777083</commentid>
+			<comment_count>1</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2021-08-16 07:30:06 +0200</bug_when>
+			<thetext>addressed by current usability concept</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>832556</commentid>
+			<comment_count>2</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-10-14 13:33:20 +0200</bug_when>
+			<thetext>Hip 7.1 refers to project Hyperion (SNNA06) which was cancelled; and not to the
+				project HIP7 v7.1 for MDR release of HIP7 (SNNA030). --> changed target to later</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>141769</bug_id>
+		<creation_ts>2021-03-11 15:44:07 +0100</creation_ts>
+		<short_desc>Component index for implant sorting in SW</short_desc>
+		<delta_ts>2022-10-14 13:33:05 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>Database</component>
+		<version>7.1 development</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>RESOLVED</bug_status>
+		<resolution>FIXED</resolution>
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P5</priority>
+		<bug_severity>normal</bug_severity>
+		<target_milestone>later</target_milestone>
+		<everconfirmed>1</everconfirmed>
+		<reporter>f.reifenschneider@brainlab.com</reporter>
+		<assigned_to name="Mario Schubert (S&amp;N)">mario.schubert.ext@brainlab.com</assigned_to>
+		<cc>philipp.pousset.ext@brainlab.com</cc>
+		<cc>philipp.pousset@brainlab.com</cc>
+		<cc>reifenschneider.ext@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-zBNtfgwE3DyvdOYH6imydi1Z8MBm_XeoOLx5t64RRLM</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>755915</commentid>
+			<comment_count>0</comment_count>
+			<who name="">f.reifenschneider@brainlab.com</who>
+			<bug_when>2021-03-11 15:44:07 +0100</bug_when>
+			<thetext>An additional component index needs to be introduced to sort shells
+				accordingly: 01 = 0 Deg 02 = 0Deg +4 03 = 20 deg ... Also stems should have an
+				additional component index for sorting in SW 01 = standard 02 = lateral ...</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>756513</commentid>
+			<comment_count>1</comment_count>
+			<who name="">f.reifenschneider@brainlab.com</who>
+			<bug_when>2021-03-16 09:54:50 +0100</bug_when>
+			<thetext>liners not shells need the additional ordering attribute</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>756655</commentid>
+			<comment_count>2</comment_count>
+			<who name="">f.reifenschneider@brainlab.com</who>
+			<bug_when>2021-03-16 14:52:28 +0100</bug_when>
+			<thetext>A new ordering attribute / component index was created for all liners (ordering
+				attribute 3) A new ordering attribute / component index was created for all stems
+				(ordering attribute 2)</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>787415</commentid>
+			<comment_count>3</comment_count>
+			<who name="Philipp Pousset (S&amp;N)">philipp.pousset.ext@brainlab.com</who>
+			<bug_when>2021-10-28 15:53:42 +0200</bug_when>
+			<thetext>Change implemented as specified. Exploratory testing was passed. --> set status
+				to "resolved - fixed"</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>832555</commentid>
+			<comment_count>4</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-10-14 13:33:05 +0200</bug_when>
+			<thetext>Hip 7.1 refers to project Hyperion (SNNA06) which was cancelled; and not to the
+				project HIP7 v7.1 for MDR release of HIP7 (SNNA030). --> changed target to later</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>141765</bug_id>
+		<creation_ts>2021-03-11 13:24:26 +0100</creation_ts>
+		<short_desc>Procedure overview page implant selection shifted arrows and boxes</short_desc>
+		<delta_ts>2022-10-14 13:31:46 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>GUI</component>
+		<version>7.1 development</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>RESOLVED</bug_status>
+		<resolution>FIXED</resolution>
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P5</priority>
+		<bug_severity>normal</bug_severity>
+		<target_milestone>later</target_milestone>
+		<everconfirmed>1</everconfirmed>
+		<reporter>f.reifenschneider@brainlab.com</reporter>
+		<assigned_to>f.reifenschneider@brainlab.com</assigned_to>
+		<cc>mario.schubert@brainlab.com</cc>
+		<cc>reifenschneider.ext@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-JNXKAs_t7fqVEOuWuJqd8SqRsn0Es8-ud2Rx-XbR1Qw</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>755852</commentid>
+			<comment_count>0</comment_count>
+			<who name="">f.reifenschneider@brainlab.com</who>
+			<bug_when>2021-03-11 13:24:26 +0100</bug_when>
+			<thetext>In the implant selection on the procedure overview page the boxes containing
+				the implants (size, type, etc.) that appear when clicking on the arrows are shifted
+				to the left. And the arrows do not always point to the selected implant component
+				parameter. As introduced in bug #141756 the writing that appears when no compatible
+				implant component is selected shall appear in white and the box shall have a red
+				bounding.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>756577</commentid>
+			<comment_count>1</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2021-03-16 12:06:48 +0100</bug_when>
+			<thetext>text messages and red borders are implemented; see Build 922 location of popup
+				windows are in progress ...</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>764790</commentid>
+			<comment_count>2</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2021-05-19 07:33:05 +0200</bug_when>
+			<thetext>needs to be checked vy usability</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>764794</commentid>
+			<comment_count>3</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2021-05-19 08:05:35 +0200</bug_when>
+			<thetext>*** Bug 142331 has been marked as a duplicate of this bug. ***</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>781258</commentid>
+			<comment_count>4</comment_count>
+			<who name="">f.reifenschneider@brainlab.com</who>
+			<bug_when>2021-09-22 11:24:02 +0200</bug_when>
+			<thetext>verify with Build 950. Arrows removed</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>832554</commentid>
+			<comment_count>5</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-10-14 13:31:46 +0200</bug_when>
+			<thetext>Hip 7.1 refers to project Hyperion (SNNA06) which was cancelled; and not to the
+				project HIP7 v7.1 for MDR release of HIP7 (SNNA030). --> changed target to later</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>141757</bug_id>
+		<creation_ts>2021-03-11 12:00:37 +0100</creation_ts>
+		<short_desc>Layout of implant selection for no compatible implant</short_desc>
+		<delta_ts>2022-10-14 13:31:32 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>Database</component>
+		<version>7.1 development</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>IMPLEMENTED</bug_status>
+		<resolution />
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P5</priority>
+		<bug_severity>normal</bug_severity>
+		<target_milestone>later</target_milestone>
+		<everconfirmed>1</everconfirmed>
+		<reporter>f.reifenschneider@brainlab.com</reporter>
+		<assigned_to name="Mario Schubert (S&amp;N)">mario.schubert.ext@brainlab.com</assigned_to>
+		<cc>philipp.pousset.ext@brainlab.com</cc>
+		<cc>philipp.pousset@brainlab.com</cc>
+		<cc>reifenschneider.ext@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676--uR4Avg9qvNjOF4i9HOjVPcO1EVYQVrA0WHCJhW_fHM</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>755806</commentid>
+			<comment_count>0</comment_count>
+			<who name="">f.reifenschneider@brainlab.com</who>
+			<bug_when>2021-03-11 12:00:37 +0100</bug_when>
+			<thetext>On the PO page and other pages where the user shall select an implant, if no
+				compatible implant component is selected the text 'please select compatible implant
+				component' shall be displayed in white and a red box shall surround the text. The
+				next button shall be disabled until a fitting implant combination is selected If the
+				user selects an implant component during the workflow to which his other component
+				is not compatible the user shall be prompted to the implant selection and select a
+				compatible implant system, only then he can proceed in the workflow. (for example:
+				on the stem verification page the user selects a 32 head size, but he selected a
+				OR3O liner system on the procedure overview page. He should be directed to the
+				implant selection and select compatible components.) (maybe the liner selection in
+				terms of liner system needs to be changeable even after the Procedure overview page
+				(here I am not sure))</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>787414</commentid>
+			<comment_count>1</comment_count>
+			<who name="Philipp Pousset (S&amp;N)">philipp.pousset.ext@brainlab.com</who>
+			<bug_when>2021-10-28 15:51:56 +0200</bug_when>
+			<thetext>Changes were implemented according to current specifications. Minor changes
+				might be required based on surgeon feedback during formative usability testing/ lab
+				testing. --> set status to "implemented"</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>832553</commentid>
+			<comment_count>2</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-10-14 13:31:32 +0200</bug_when>
+			<thetext>Hip 7.1 refers to project Hyperion (SNNA06) which was cancelled; and not to the
+				project HIP7 v7.1 for MDR release of HIP7 (SNNA030). --> changed target to later</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>141756</bug_id>
+		<creation_ts>2021-03-11 11:50:15 +0100</creation_ts>
+		<short_desc>Ensure selection of right shell size on COR-shift prediction page</short_desc>
+		<delta_ts>2021-10-28 15:50:15 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>GUI</component>
+		<version>7.1 development</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>CONFIRMED</bug_status>
+		<resolution />
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P5</priority>
+		<bug_severity>normal</bug_severity>
+		<target_milestone>later</target_milestone>
+		<everconfirmed>1</everconfirmed>
+		<reporter>f.reifenschneider@brainlab.com</reporter>
+		<assigned_to name="Philipp Pousset (S&amp;N)">philipp.pousset.ext@brainlab.com</assigned_to>
+		<cc>mario.schubert@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-WDbzF6nD1IQRAyxpd2DzaWrM96bz-ceNLoKNJVSwKHw</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>755805</commentid>
+			<comment_count>0</comment_count>
+			<who name="">f.reifenschneider@brainlab.com</who>
+			<bug_when>2021-03-11 11:50:15 +0100</bug_when>
+			<thetext>On the COR-shift prediction page it needs to be ensured that the correct size
+				of the shell that is implanted is selected before selecting a liner. This is a
+				usability topic.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>766790</commentid>
+			<comment_count>1</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2021-06-18 07:40:59 +0200</bug_when>
+			<thetext>COR-shift functionality was removed from cup-verification page. Additionally
+				the functionality to offer the possibility to select correct implant selection was
+				added.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>787412</commentid>
+			<comment_count>2</comment_count>
+			<who name="Philipp Pousset (S&amp;N)">philipp.pousset.ext@brainlab.com</who>
+			<bug_when>2021-10-28 15:50:15 +0200</bug_when>
+			<thetext>--> set target to "later" as the COR-prediction feature was excluded from HIP7
+				v7.1</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>141753</bug_id>
+		<creation_ts>2021-03-11 11:33:43 +0100</creation_ts>
+		<short_desc>R3 shells selection requires shell type</short_desc>
+		<delta_ts>2022-10-14 13:31:16 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>Database</component>
+		<version>7.1 development</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>RESOLVED</bug_status>
+		<resolution>FIXED</resolution>
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P5</priority>
+		<bug_severity>normal</bug_severity>
+		<target_milestone>later</target_milestone>
+		<everconfirmed>1</everconfirmed>
+		<reporter>f.reifenschneider@brainlab.com</reporter>
+		<assigned_to name="Mario Schubert (S&amp;N)">mario.schubert.ext@brainlab.com</assigned_to>
+		<cc>philipp.pousset.ext@brainlab.com</cc>
+		<cc>philipp.pousset@brainlab.com</cc>
+		<cc>reifenschneider.ext@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-PzhFsa911Wt8mYIgg7Zv_VWCfX_llBYsajgiat4NXTg</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>755798</commentid>
+			<comment_count>0</comment_count>
+			<who name="">f.reifenschneider@brainlab.com</who>
+			<bug_when>2021-03-11 11:33:43 +0100</bug_when>
+			<thetext>R3 shells need to have the shell type (no hole, three hole, multi hole) as an
+				additional attribute in the implant selection. The shell type was set as an visible
+				attribute in the DB. The shell type should be selectable until the cup is finally
+				implanted</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>756574</commentid>
+			<comment_count>1</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2021-03-16 11:55:29 +0100</bug_when>
+			<thetext>implement within Build 922; how to fix visible attributes after final
+				implantation should be discussed after prototype is tested</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>787411</commentid>
+			<comment_count>2</comment_count>
+			<who name="Philipp Pousset (S&amp;N)">philipp.pousset.ext@brainlab.com</who>
+			<bug_when>2021-10-28 15:48:44 +0200</bug_when>
+			<thetext>Exploratory testing was passed. --> set status to "resolved - fixed"</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>832552</commentid>
+			<comment_count>3</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-10-14 13:31:16 +0200</bug_when>
+			<thetext>Hip 7.1 refers to project Hyperion (SNNA06) which was cancelled; and not to the
+				project HIP7 v7.1 for MDR release of HIP7 (SNNA030). --> changed target to later</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>140826</bug_id>
+		<creation_ts>2021-02-08 18:46:37 +0100</creation_ts>
+		<short_desc>Shaking bones with ClearLens within navigation page on Curve Navigation platform</short_desc>
+		<delta_ts>2022-10-14 13:30:56 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>General: miscellaneous</component>
+		<version>7.1 development</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>CONFIRMED</bug_status>
+		<resolution />
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P5</priority>
+		<bug_severity>normal</bug_severity>
+		<target_milestone>later</target_milestone>
+		<dependson>139737</dependson>
+		<everconfirmed>1</everconfirmed>
+		<reporter name="Anna Wiedenmann">anna.wiedenmann@brainlab.com</reporter>
+		<assigned_to name="Philipp Pousset (S&amp;N)">philipp.pousset.ext@brainlab.com</assigned_to>
+		<cc>bernd.voelkel@brainlab.com</cc>
+		<cc>christian.brack@brainlab.com</cc>
+		<cc>mario.schubert@brainlab.com</cc>
+		<cc>reifenschneider.ext@brainlab.com</cc>
+		<cc>torsten.hain@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-_pym_E79b_UF9optqtgWNGBiUX7qgyR2kqPSGvlfzKo</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>751345</commentid>
+			<comment_count>0</comment_count>
+			<who name="Anna Wiedenmann">anna.wiedenmann@brainlab.com</who>
+			<bug_when>2021-02-08 18:46:37 +0100</bug_when>
+			<thetext>+++ This bug was initially created as a clone of Bug #139737 +++ Platform:
+				Curve Navigation (M-Platform) Instruments: ClearLens Software: Knee3 v3.3.0.281
+				(RC1) When using ClearLens on the navigation page the bones are "shaking" and values
+				are jumping. More blue points on the ROM graph as usually. So far only seen on Curve
+				Navigation (M-Platform) to this extend. Not seen with metal / DRMS instruments.
+				Reproducible also with Knee 3.2.2 and Knee 3.3 prototype.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>777431</commentid>
+			<comment_count>1</comment_count>
+			<who name="Philipp Pousset">philipp.pousset@brainlab.com</who>
+			<bug_when>2021-08-18 15:34:42 +0200</bug_when>
+			<thetext>-> status was set to "confirmed" under reserve Released hip application are not
+				designed for use with ClearLens arrays. Thus, there is not an urgent need for
+				further investigation at present. But HIP7 v7.1 shall be compatible with instruments
+				being equipped with ClearLens Markers. The reported issue will be analyzed during
+				the HIP7 v7.1 project also considering the final list of compatible BL platforms.
+				Curve Navigation might not be on that list.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>832551</commentid>
+			<comment_count>2</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-10-14 13:30:56 +0200</bug_when>
+			<thetext>Hip 7.1 refers to project Hyperion (SNNA06) which was cancelled; and not to the
+				project HIP7 v7.1 for MDR release of HIP7 (SNNA030). --> changed target to later</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>139999</bug_id>
+		<creation_ts>2020-12-17 07:25:17 +0100</creation_ts>
+		<short_desc>Import data from Hip3D planning</short_desc>
+		<delta_ts>2021-05-20 15:50:23 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>Traumacad and DICOM Integration</component>
+		<version>7.1 development</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>CONFIRMED</bug_status>
+		<resolution />
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P5</priority>
+		<bug_severity>enhancement</bug_severity>
+		<target_milestone>later</target_milestone>
+		<everconfirmed>1</everconfirmed>
+		<reporter name="Mario Schubert">mario.schubert@brainlab.com</reporter>
+		<assigned_to name="Lars Dohmen">lars.dohmen@brainlab.com</assigned_to>
+		<cc>f.reifenschneider@brainlab.com</cc>
+		<cc>lars.dohmen@brainlab.com</cc>
+		<cc>martin.bauer@brainlab.com</cc>
+		<cc>philipp.pousset@brainlab.com</cc>
+		<cc>ruben.moreno@brainlab.com</cc>
+		<cc>steffen.beck@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-ueg768BdgBr8Gu03cV-CJNGQmvZvDcnyJQXhXwhXvAo</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>745915</commentid>
+			<comment_count>0</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2020-12-17 07:25:17 +0100</bug_when>
+			<thetext>Probably a 3D hip planning project will be running parallel to Hip7v7.1
+				project. If so it would be really helpful to import single planned values into
+				navigation software, e.g. * measured asis-asis distance * measured teardrop distance
+				* pelvic tilt * native antetorsion * implant selection * ... Please consider prior
+				to G3(feature freeze, currently planned for July 2021 ) if such an import can be
+				established within Hip7v7.1 project.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>764970</commentid>
+			<comment_count>1</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2021-05-20 15:50:23 +0200</bug_when>
+			<thetext>As HIP3DProject is not started yet, we decided to change target from 7.1.0 to
+				Later</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>139029</bug_id>
+		<creation_ts>2020-11-06 12:38:28 +0100</creation_ts>
+		<short_desc>Hip 7 doesn't show bone model with DX11-Error</short_desc>
+		<delta_ts>2022-10-14 13:30:32 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>GUI</component>
+		<version>7.1 development</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>RESOLVED</bug_status>
+		<resolution>FIXED</resolution>
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P5</priority>
+		<bug_severity>normal</bug_severity>
+		<target_milestone>later</target_milestone>
+		<dependson>140122</dependson>
+		<blocked>151237</blocked>
+		<everconfirmed>1</everconfirmed>
+		<reporter name="Martin Bauer">martin.bauer@brainlab.com</reporter>
+		<assigned_to name="Philipp Pousset (S&amp;N)">philipp.pousset.ext@brainlab.com</assigned_to>
+		<cc>mario.schubert@brainlab.com</cc>
+		<cc>reifenschneider.ext@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid>Comp-20201030-076746</cf_cid>
+		<token>1675068676-DAH-TKss87st9nbsTjfeu-_ZGGRdo1Y6EqPZGYG_EKo</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>740436</commentid>
+			<comment_count>0</comment_count>
+			<who name="Martin Bauer">martin.bauer@brainlab.com</who>
+			<bug_when>2020-11-06 12:38:28 +0100</bug_when>
+			<thetext> Hip 7 doesnt show bone models, logfiles sho DX11 error messsages: [14-Oct-2020
+				12:53:38.589][Platform][5528] DX11-Error : D3DCompile(shader0, strlen((const char
+				*)shader0), nullptr, nullptr, nullptr, "main_technique", "fx_5_0",
+				0x0/*shaderFlags*/, 0/*effectFlags*/, &ID3DBlob_0x0000000000000000,
+				&compilerMessages0); : 0x80004005 (Unspecified failure.) [14-Oct-2020
+				12:53:38.590][Paint3D][5528] DX11 effect compiler error
+				F:\Brainlab\appls\Hip_7.0.0\hip\<memory>(1,1): error X3000: Illegal character in
+				shader file [14-Oct-2020 12:53:38.597][Paint3D][5528] RealizeFailed -- DX11 Effect
+				could not be created ! -> No StageRealizer could handle this RasterizationPrograms
+				stage program ! -> Failed to render this SimplexModel component as "SimplexModel" !
+				-> Failed to render this Quad component as "Quad" ! -> Failed to render this
+				PaintContext3D component as "Container" ! ->
+				paintdx11::PaintContextDX11::renderAdditional() failed ! [14-Oct-2020
+				12:53:38.651][Paint3D][5528] RealizeFailed -- DX11 Effect could not be created ! ->
+				No StageRealizer could handle this RasterizationPrograms stage program ! -> Failed
+				to render this SimplexModel component as "SimplexModel" ! -> Failed to render this
+				Quad component as "Quad" ! -> Failed to render this PaintContext3D component as
+				"Container" ! -> paintdx11::PaintContextDX11::renderAdditional() failed ! deleting
+				the DX11 cache (C:\ProgramData\Brainlab\Cache) seems to have resolved it at least in
+				one instance</memory></thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>740438</commentid>
+			<comment_count>1</comment_count>
+			<attachid>45854</attachid>
+			<who name="Martin Bauer">martin.bauer@brainlab.com</who>
+			<bug_when>2020-11-06 12:40:51 +0100</bug_when>
+			<thetext>Created attachment 45854 Case-20201013-367799</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>740439</commentid>
+			<comment_count>2</comment_count>
+			<attachid>45855</attachid>
+			<who name="Martin Bauer">martin.bauer@brainlab.com</who>
+			<bug_when>2020-11-06 12:42:09 +0100</bug_when>
+			<thetext>Created attachment 45855 Case-20201030-369901</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>740440</commentid>
+			<comment_count>3</comment_count>
+			<who name="Salesforce CID">cid-noreply@brainlab.com</who>
+			<bug_when>2020-11-06 12:42:34 +0100</bug_when>
+			<thetext>This bug is now referenced in CID Comp-20201030-076746. See
+				https://eu1.salesforce.com/5001i00000ULpdNAAT</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>755780</commentid>
+			<comment_count>4</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2021-03-11 11:13:47 +0100</bug_when>
+			<thetext>seem that this issue also occurred with other applications and is now fixed at
+				plugin/common/paintdx11 see bugzilla 140122 --> necessary to use latest patch of
+				paintdx11 for HiIP7v7.1</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>764789</commentid>
+			<comment_count>5</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2021-05-19 07:29:12 +0200</bug_when>
+			<thetext>needs to be tested ( however its possible to provoke that's issue ) Current
+				prototype is based on released framework 12.x, so this issue should be solved.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>766784</commentid>
+			<comment_count>6</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2021-06-18 07:22:02 +0200</bug_when>
+			<thetext>set correct severity</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>787408</commentid>
+			<comment_count>7</comment_count>
+			<who name="Philipp Pousset (S&amp;N)">philipp.pousset.ext@brainlab.com</who>
+			<bug_when>2021-10-28 15:42:54 +0200</bug_when>
+			<thetext>As this error only very rarely occurs, the bug fix cannot reasonably be tested.
+				Needs to be observed during verification testing of HIP7 v7.1. If the problem
+				doesn't happen again, the bug will be set to "Closed - fixed" For now, status is set
+				to "Resolved - Fixed"</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>832550</commentid>
+			<comment_count>8</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-10-14 13:30:32 +0200</bug_when>
+			<thetext>Hip 7.1 refers to project Hyperion (SNNA06) which was cancelled; and not to the
+				project HIP7 v7.1 for MDR release of HIP7 (SNNA030). --> changed target to later</thetext>
+		</long_desc>
+		<attachment isobsolete="0" ispatch="0" isprivate="0">
+			<attachid>45854</attachid>
+			<date>2020-11-06 12:40:51 +0100</date>
+			<delta_ts>2020-11-06 12:40:51 +0100</delta_ts>
+			<desc>Case-20201013-367799</desc>
+			<filename>HipCupAndLegCaseReport_20201014T125505[1].pdf</filename>
+			<type>application/pdf</type>
+			<size>1110978</size>
+			<attacher name="Martin Bauer">martin.bauer@brainlab.com</attacher>
+			<token>1675068676-gROaF4DVrgI61iGQekCBgSz9WuCmdCn78c-v0aiUMOI</token>
+		</attachment>
+		<attachment isobsolete="0" ispatch="0" isprivate="0">
+			<attachid>45855</attachid>
+			<date>2020-11-06 12:42:09 +0100</date>
+			<delta_ts>2020-11-06 12:42:09 +0100</delta_ts>
+			<desc>Case-20201030-369901</desc>
+			<filename>hipcupandlegcasereport.pdf</filename>
+			<type>application/pdf</type>
+			<size>3136175</size>
+			<attacher name="Martin Bauer">martin.bauer@brainlab.com</attacher>
+			<token>1675068676-IyYiTskmV32NcoH-BUz9G-dwhqsYjqD4jfE4oASiztw</token>
+		</attachment>
+	</bug>
+	<bug>
+		<bug_id>138972</bug_id>
+		<creation_ts>2020-11-04 07:31:01 +0100</creation_ts>
+		<short_desc>[AppManagement] Rotating wheel shown in CM after patient change and HIP navi is
+			included in the wfl</short_desc>
+		<delta_ts>2022-10-14 13:30:06 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>General: miscellaneous</component>
+		<version>7.1 development</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>IMPLEMENTED</bug_status>
+		<resolution />
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P5</priority>
+		<bug_severity>minor</bug_severity>
+		<target_milestone>later</target_milestone>
+		<dependson>138954</dependson>
+		<everconfirmed>1</everconfirmed>
+		<reporter name="Mario Schubert">mario.schubert@brainlab.com</reporter>
+		<assigned_to name="Mario Schubert (S&amp;N)">mario.schubert.ext@brainlab.com</assigned_to>
+		<cc>marc.fricke@brainlab.com</cc>
+		<cc>mario.schubert@brainlab.com</cc>
+		<cc>reifenschneider.ext@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-Kdk0eSEONzG4N1BIp-Ff2kf718kI9_pONEb7gH7dyek</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>740015</commentid>
+			<comment_count>0</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2020-11-04 07:31:01 +0100</bug_when>
+			<thetext>+++ This bug was initially created as a clone of Bug #138954 +++ TESTING
+				ENVIRONMENT: AxedaDesktopServer - 6.8.209.3 BackboneApplication RELEASE 1.6.1.38
+				BackboneViewer RELEASE 1.6.1.574 BrainlabTrackingService RELEASE 4.1.0.9 Camera
+				RELEASE 2.0.0.103 CaseReport RELEASE 2.2.1.78 Clock - 1.0.2.62 ContentManager
+				RELEASE 2.7.0.499 Cranial Navigation RELEASE 4.0.0.159 Cranial Registration RELEASE
+				3.5.1.247 CranialENT RELEASE 3.1.5.177 DataSelection RELEASE 6.1.0.232 DICOMProxy
+				RELEASE 4.1.5.552 Hip RELEASE 7.0.0.906 IGSDataRecorder RELEASE 1.0.0.14 ImageFusion
+				RELEASE 4.0.2.8 ImageFusionPerformer RELEASE 5.0.0.72 ImageSortingPerformer RELEASE
+				1.2.0.30 ImageViewer RELEASE 5.1.1.98 MorphisServer RELEASE 2.0.1.8 NodeMaster
+				RELEASE 1.6.0.48 ObjectManagement RELEASE 1.1.1.8 OpticalMarkerArrays - 1.0.2.3
+				PatientDataManager - 2.7.0.499 PatientSelection RELEASE 6.1.0.198 SettingsManager -
+				1.0.0.155 Spine & Trauma Instrument Selection RELEASE 1.5.1.496
+				SpineTrauma_Instruments+Sets - 1.0.0.115.2 SQLLocalDB - 11.2.5058.19
+				StreamingProvider RELEASE 2.0.2.32 StreamingServer RELEASE 2.0.0.14
+				UATransferPerformer RELEASE 5.0.0.72 UniversalAtlasPerformer RELEASE 5.0.0.72
+				VegaIPService RELEASE 4.1.0.9 XBrainConverter RELEASE 2.3.0.20 Zeroconf BETA 1.0.0.4
+				DEWPQAKICK04 Kick2.0 STEPS TO REPRODUCE: 1. Create or choose patient 2. Open HIP7 3.
+				Select TraumaCAD Plan and go to registration 4. Press HOME Button in upper right
+				corner EXPECTED RESULT: Content Manager should be shown ACTUAL RESULT: Spinning
+				wheel is shown in Content manager and Content manager cannot be used unit I close
+				HIP application with F4. TIMESTAMP: 9:59 ATTACHMENTS: Logfiles</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>740016</commentid>
+			<comment_count>1</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2020-11-04 07:34:57 +0100</bug_when>
+			<thetext> check proposed tm2 file change at original bug as workaround: a possible
+				workaround within the Hip would be to add the following line to the tm2 file: <SurvivesPatientChange />
+				(only do this if in every patient change scenario the Hip either exits or sends a
+				RestartMessage) </thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>764788</commentid>
+			<comment_count>2</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2021-05-19 07:26:14 +0200</bug_when>
+			<thetext>current tm2 file implementation of HIP7v7.1 needs to be tested</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>832549</commentid>
+			<comment_count>3</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-10-14 13:30:06 +0200</bug_when>
+			<thetext>Hip 7.1 refers to project Hyperion (SNNA06) which was cancelled; and not to the
+				project HIP7 v7.1 for MDR release of HIP7 (SNNA030). --> changed target to later</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>138298</bug_id>
+		<creation_ts>2020-10-08 12:27:05 +0200</creation_ts>
+		<short_desc>Remove licensing of instrument type (metal / ClearLens)</short_desc>
+		<delta_ts>2022-10-14 13:29:24 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>General: miscellaneous</component>
+		<version>7.1 development</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>IMPLEMENTED</bug_status>
+		<resolution />
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P5</priority>
+		<bug_severity>normal</bug_severity>
+		<target_milestone>later</target_milestone>
+		<dependson>138175</dependson>
+		<everconfirmed>1</everconfirmed>
+		<reporter name="Mario Schubert">mario.schubert@brainlab.com</reporter>
+		<assigned_to name="Philipp Pousset (S&amp;N)">philipp.pousset.ext@brainlab.com</assigned_to>
+		<cc>anna.wiedenmann@brainlab.com</cc>
+		<cc>christian.brack@brainlab.com</cc>
+		<cc>giulia.lucidi@brainlab.com</cc>
+		<cc>mario.schubert@brainlab.com</cc>
+		<cc>martin.bauer@brainlab.com</cc>
+		<cc>reifenschneider.ext@brainlab.com</cc>
+		<cc>torsten.hain@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-PzbfIsFGmjOD3E2ATL1ikVM2BIVR5rrRN0ya77rzu2I</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>735702</commentid>
+			<comment_count>0</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2020-10-08 12:27:05 +0200</bug_when>
+			<thetext>+++ This bug was initially created as a clone of Bug #138175 +++ From KNEE3
+				v3.3 there shall be no licensing of the instrument type (metal / ClearLens
+				instruments) anymore. Within the software it shall always be possible to switch
+				between metal and ClearLens. ClearLens shall be set as default instrument type.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>745914</commentid>
+			<comment_count>1</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2020-12-17 07:15:56 +0100</bug_when>
+			<thetext>implemented with Knee3.3 development</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>832547</commentid>
+			<comment_count>2</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-10-14 13:29:24 +0200</bug_when>
+			<thetext>Hip 7.1 refers to project Hyperion (SNNA06) which was cancelled; and not to the
+				project HIP7 v7.1 for MDR release of HIP7 (SNNA030). --> changed target to later</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>137555</bug_id>
+		<creation_ts>2020-09-10 15:20:23 +0200</creation_ts>
+		<short_desc>unable to switch to x-ray free navigation when plausibility check rejects x-ray</short_desc>
+		<delta_ts>2022-10-14 13:27:57 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>General: miscellaneous</component>
+		<version>7.1 development</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>CONFIRMED</bug_status>
+		<resolution />
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P2</priority>
+		<bug_severity>major</bug_severity>
+		<target_milestone>later</target_milestone>
+		<everconfirmed>1</everconfirmed>
+		<reporter name="Martin Bauer">martin.bauer@brainlab.com</reporter>
+		<assigned_to name="Philipp Pousset (S&amp;N)">philipp.pousset.ext@brainlab.com</assigned_to>
+		<cc>mario.schubert@brainlab.com</cc>
+		<cc>martin.bauer@brainlab.com</cc>
+		<cc>reifenschneider.ext@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid>Comp-20200828-075248</cf_cid>
+		<token>1675068676-QkbTm4uwrJHLxe8VteN8HAwv9z36oGlB67sz9uCf3bk</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>731504</commentid>
+			<comment_count>0</comment_count>
+			<who name="Martin Bauer">martin.bauer@brainlab.com</who>
+			<bug_when>2020-09-10 15:20:23 +0200</bug_when>
+			<thetext>when an x-ray based workflow is started, and during registration the x-ray is
+				rejected due to plausability checks, it's impossible to bail out to a non x-ray
+				based cup navigation and surgeon is left with only leg length/offset maesurement</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>731513</commentid>
+			<comment_count>1</comment_count>
+			<who name="Martin Bauer">martin.bauer@brainlab.com</who>
+			<bug_when>2020-09-10 15:28:58 +0200</bug_when>
+			<thetext>see Case-20200819-361582 as related (entered by Mario based on the original
+				email from Charlie)</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>731568</commentid>
+			<comment_count>2</comment_count>
+			<who name="Salesforce CID">cid-noreply@brainlab.com</who>
+			<bug_when>2020-09-11 09:35:55 +0200</bug_when>
+			<thetext>This bug is now referenced in CID Comp-20200828-075248. See
+				https://eu1.salesforce.com/5001i00000RxbgCAAR</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>731996</commentid>
+			<comment_count>3</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2020-09-15 10:21:41 +0200</bug_when>
+			<thetext>If X-ray data itself will trigger a plausibility check, the planning data will
+				be rejected and not used for navigation. This issue is clear and already
+				implemented. In current case * the X-ray data are consistent ( or at least will not
+				trigger a plausibility check ) * the registration data are consistent ( or at least
+				will not trigger a plausibility check ) but both data will not fit together. In such
+				an case the software cannot find out the source of an error. This additional
+				plausibility check was intentional implemented in order to prevent an incorrect cup
+				navigation. Current issue should be handled with care.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>832543</commentid>
+			<comment_count>4</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-10-14 13:27:57 +0200</bug_when>
+			<thetext>Hip 7.1 refers to project Hyperion (SNNA06) which was cancelled; and not to the
+				project HIP7 v7.1 for MDR release of HIP7 (SNNA030). --> changed target to later</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>136288</bug_id>
+		<creation_ts>2020-07-22 14:49:57 +0200</creation_ts>
+		<short_desc>About box: adapt user guide info</short_desc>
+		<delta_ts>2022-10-14 13:26:55 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>GUI</component>
+		<version>7.1 development</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>IMPLEMENTED</bug_status>
+		<resolution />
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P5</priority>
+		<bug_severity>minor</bug_severity>
+		<target_milestone>later</target_milestone>
+		<blocked>151707</blocked>
+		<everconfirmed>1</everconfirmed>
+		<reporter name="Mario Schubert">mario.schubert@brainlab.com</reporter>
+		<assigned_to name="Philipp Pousset (S&amp;N)">philipp.pousset.ext@brainlab.com</assigned_to>
+		<cc>mario.schubert@brainlab.com</cc>
+		<cc>reifenschneider.ext@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-mkb0Ga634qkAftsiDVGZAKB7N9MojzbUtIlG7pCkx2E</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>722876</commentid>
+			<comment_count>0</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2020-07-22 14:49:57 +0200</bug_when>
+			<thetext>according bug 122266 at KNEE3 the user guide info needs to be updated</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>832542</commentid>
+			<comment_count>1</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-10-14 13:26:55 +0200</bug_when>
+			<thetext>Hip 7.1 refers to project Hyperion (SNNA06) which was cancelled; and not to the
+				project HIP7 v7.1 for MDR release of HIP7 (SNNA030). --> changed target to later</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>134787</bug_id>
+		<creation_ts>2020-05-05 16:55:46 +0200</creation_ts>
+		<short_desc>add "FeePerUse - OneUsageDetected" to SUS logfile</short_desc>
+		<delta_ts>2022-10-14 13:22:26 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>General: miscellaneous</component>
+		<version>7.1 development</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>CONFIRMED</bug_status>
+		<resolution />
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P1</priority>
+		<bug_severity>enhancement</bug_severity>
+		<target_milestone>later</target_milestone>
+		<everconfirmed>1</everconfirmed>
+		<reporter name="Martin Bauer">martin.bauer@brainlab.com</reporter>
+		<assigned_to name="Philipp Pousset (S&amp;N)">philipp.pousset.ext@brainlab.com</assigned_to>
+		<cc>mario.schubert@brainlab.com</cc>
+		<cc>reifenschneider.ext@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-lpoO1uAJHQ7koMgmiqH0LFgbei4oz1XRqJIHioucFhI</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>714064</commentid>
+			<comment_count>0</comment_count>
+			<who name="Martin Bauer">martin.bauer@brainlab.com</who>
+			<bug_when>2020-05-05 16:55:46 +0200</bug_when>
+			<thetext>please add Category FeePerUse Feature OneUsageDetected whenever during a
+				workflow its clear that the software has been actually used (depending on workflow)
+				not just accidentally started. should be written at most once per procedure.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>714065</commentid>
+			<comment_count>1</comment_count>
+			<who name="Martin Bauer">martin.bauer@brainlab.com</who>
+			<bug_when>2020-05-05 17:01:01 +0200</bug_when>
+			<thetext>ps note that SUS does not list any Hip 7 data yet so I was unable to verify if
+				this has already been added. We might want to upload SUS data from our marketing
+				KICK to start seeing that data</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>744351</commentid>
+			<comment_count>2</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2020-12-07 11:52:49 +0100</bug_when>
+			<thetext>should already be implemented in Hip7v7.0 according to default JR
+				implementation: CupAndLeg workflow: * on cup navigation page * on pinless
+				legsituation page Express workflow * on pinless legsituation page</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>745546</commentid>
+			<comment_count>3</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2020-12-15 09:40:55 +0100</bug_when>
+			<thetext>* should be implemented for new workflows * refer to Xtool Requirement:
+				Rq.357RGG</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>832540</commentid>
+			<comment_count>4</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-10-14 13:22:26 +0200</bug_when>
+			<thetext>Hip 7.1 refers to project Hyperion (SNNA06) which was cancelled; and not to the
+				project HIP7 v7.1 for MDR release of HIP7 (SNNA030). --> changed target to later</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>132309</bug_id>
+		<creation_ts>2020-01-28 10:05:14 +0100</creation_ts>
+		<short_desc>Acetabular registration visualization not helpful</short_desc>
+		<delta_ts>2022-10-14 13:21:11 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>Pelvis Registration</component>
+		<version>7.1 development</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>IMPLEMENTED</bug_status>
+		<resolution />
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P3</priority>
+		<bug_severity>normal</bug_severity>
+		<target_milestone>later</target_milestone>
+		<everconfirmed>1</everconfirmed>
+		<reporter name="Martin Bauer">martin.bauer@brainlab.com</reporter>
+		<assigned_to>f.reifenschneider@brainlab.com</assigned_to>
+		<cc>reifenschneider.ext@brainlab.com</cc>
+		<cc>steffen.beck@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-_WcoU13BeVHcohMeFNoSgxC0ucXeg8ZaNWQiIDNW3s8</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>695138</commentid>
+			<comment_count>0</comment_count>
+			<who name="Martin Bauer">martin.bauer@brainlab.com</who>
+			<bug_when>2020-01-28 10:05:14 +0100</bug_when>
+			<thetext> there are numerous reports from the field that the current visualization of
+				the acetabular registration points (first, one circel, then three sectors) is not
+				helping to understand where and if points are missing. From: Thombs, Charlie
+				[mailto:Charlie.Thombs@smith-nephew.com] Sent: Tuesday, January 28, 2020 12:32 AM
+				To: Martin Bauer <martin.bauer @brainlab.com> Cc: Langlois, Xavier <Xavier.Langlois @smith-nephew.com> ; Belmore,
+				Jenna <Jenna.Belmore @smith-nephew.com> ; Mackey, Marc <Marc.Mackey @smith-nephew.com> Subject: Acetabular registration
+				Martin, I wanted to get back with you regarding acetabular registration with HIP7
+				based on your recommendations. So for the lab that we did last week and the demos we
+				ran on the DEMO acetabulum, we utilized the concentric circles and it worked great!
+				In addition, we also had the surgeon focus on the native acetabulum and not so much
+				on the screen which also seemed to help. So all in all, these 2 tips greatly
+				improved the workflow. Best Regards, Charlie Charlie Thombs | Global Marketing
+				Robotics and Surgical Technologies Charlie.thombs@smith-nephew.com Mobile:
+				+1.414.628.4901 www.smith-nephew.com</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>779997</commentid>
+			<comment_count>1</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2021-09-13 08:48:44 +0200</bug_when>
+			<thetext>Proposal of usability is implemented and need to be tested. No one segment
+				representation anymore, always three segments will be show. At beginning all
+				segments are filled/cleared identically but with a reduced percentage. If enough
+				cavity points are available to calculate a raw center-of-rotation, the percentage of
+				every segment is updated.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>832538</commentid>
+			<comment_count>2</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-10-14 13:21:11 +0200</bug_when>
+			<thetext>Hip 7.1 refers to project Hyperion (SNNA06) which was cancelled; and not to the
+				project HIP7 v7.1 for MDR release of HIP7 (SNNA030). --> changed target to later</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>124960</bug_id>
+		<creation_ts>2019-05-20 13:41:45 +0200</creation_ts>
+		<short_desc>Verification Workflow - Plausibility Check Cup Inserter Movement</short_desc>
+		<delta_ts>2021-10-04 15:06:54 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>GUI</component>
+		<version>7.1 development</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>CONFIRMED</bug_status>
+		<resolution />
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P5</priority>
+		<bug_severity>critical</bug_severity>
+		<target_milestone>later</target_milestone>
+		<everconfirmed>1</everconfirmed>
+		<reporter name="Steffen Beck">steffen.beck@brainlab.com</reporter>
+		<assigned_to name="Philipp Pousset (S&amp;N)">philipp.pousset.ext@brainlab.com</assigned_to>
+		<cc>mario.schubert@brainlab.com</cc>
+		<cc>steffen.beck@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-EiDSfch-KXoJeWlNQmOC39Jd7-HDnQTr-1LYE6hHoGk</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>645920</commentid>
+			<comment_count>0</comment_count>
+			<who name="Steffen Beck">steffen.beck@brainlab.com</who>
+			<bug_when>2019-05-20 13:41:45 +0200</bug_when>
+			<thetext>GUI change required: When a movement of the cup inserter is detected after
+				verification the Inclination and Anteversion values need to disappear.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>646036</commentid>
+			<comment_count>1</comment_count>
+			<who name="Philipp Pousset">philipp.pousset@brainlab.com</who>
+			<bug_when>2019-05-21 09:28:21 +0200</bug_when>
+			<thetext>This bug refers to previously documented risk cause Cause Cs.3922KT and its
+				appropriate control measure Sp.397TFM. Fixing this bug is absolutely necessary until
+				the workflow Cup Verification shall be released. As the workflow Cup Verification
+				was excluded from release scope of HIP7 v7.0.0, target milestone is set to later.</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>124959</bug_id>
+		<creation_ts>2019-05-20 13:39:53 +0200</creation_ts>
+		<short_desc>Verification Workflow - Plausibility Checks</short_desc>
+		<delta_ts>2021-10-08 11:02:11 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>Pelvis Registration</component>
+		<version>7.1 development</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>CONFIRMED</bug_status>
+		<resolution />
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P5</priority>
+		<bug_severity>normal</bug_severity>
+		<target_milestone>later</target_milestone>
+		<everconfirmed>1</everconfirmed>
+		<reporter name="Steffen Beck">steffen.beck@brainlab.com</reporter>
+		<assigned_to name="Mario Schubert (S&amp;N)">mario.schubert.ext@brainlab.com</assigned_to>
+		<cc>steffen.beck@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-QM6bqbHtLWBN3Tu05x51rFbdJWKqEH4RQopYwXQxtCo</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>645919</commentid>
+			<comment_count>0</comment_count>
+			<who name="Steffen Beck">steffen.beck@brainlab.com</who>
+			<bug_when>2019-05-20 13:39:53 +0200</bug_when>
+			<thetext>The plausibility checks during and after pelvis registration need to be
+				updated. Compare with plausibility checks in Cup and Leg workflow.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>645939</commentid>
+			<comment_count>1</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2019-05-20 13:52:06 +0200</bug_when>
+			<thetext>it was decided to exclude these tasks from scope of Hip 7.0.0 as this workflow
+				will not be released So I will set the milestone to later</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>124958</bug_id>
+		<creation_ts>2019-05-20 13:37:53 +0200</creation_ts>
+		<short_desc>Verification Workflow - ASIS treated picture</short_desc>
+		<delta_ts>2021-10-04 15:06:54 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>GUI</component>
+		<version>7.1 development</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>CONFIRMED</bug_status>
+		<resolution />
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P3</priority>
+		<bug_severity>minor</bug_severity>
+		<target_milestone>later</target_milestone>
+		<everconfirmed>1</everconfirmed>
+		<reporter name="Steffen Beck">steffen.beck@brainlab.com</reporter>
+		<assigned_to name="Philipp Pousset (S&amp;N)">philipp.pousset.ext@brainlab.com</assigned_to>
+		<cc>mario.schubert@brainlab.com</cc>
+		<cc>steffen.beck@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-PHFw02QPU8n0BmtOEnajAsRNUAxS6wx922vm4-xtQSg</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>645918</commentid>
+			<comment_count>0</comment_count>
+			<who name="Steffen Beck">steffen.beck@brainlab.com</who>
+			<bug_when>2019-05-20 13:37:53 +0200</bug_when>
+			<thetext>The ASIS treated picture needs to be adapted in such a way that the ASIS
+				landmark is better visible (compare ASIS picture in Cup and Leg workflow).</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>646039</commentid>
+			<comment_count>1</comment_count>
+			<who name="Philipp Pousset">philipp.pousset@brainlab.com</who>
+			<bug_when>2019-05-21 09:33:24 +0200</bug_when>
+			<thetext>--> set to confirmed Since release of the workflow Cup Verification was
+				excluded from release scope HIP7 v7.0.0, target milestone is set to "later". Fixing
+				this bug provides a more intuitive GUI.</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>121591</bug_id>
+		<creation_ts>2018-11-14 15:27:36 +0100</creation_ts>
+		<short_desc>History of verified leg length and offset values</short_desc>
+		<delta_ts>2021-10-08 11:02:16 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>Leg Situation</component>
+		<version>7.1 development</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>CONFIRMED</bug_status>
+		<resolution />
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P5</priority>
+		<bug_severity>enhancement</bug_severity>
+		<target_milestone>later</target_milestone>
+		<everconfirmed>1</everconfirmed>
+		<reporter name="Steffen Beck">steffen.beck@brainlab.com</reporter>
+		<assigned_to name="Mario Schubert (S&amp;N)">mario.schubert.ext@brainlab.com</assigned_to>
+		<cc>steffen.beck@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-IyyWzEaAl48x1F1dBSRSrsjUAVG2d4RgFByDAYMkcb0</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>629299</commentid>
+			<comment_count>0</comment_count>
+			<who name="Steffen Beck">steffen.beck@brainlab.com</who>
+			<bug_when>2018-11-14 15:27:36 +0100</bug_when>
+			<thetext>Product management wants to include a feature which shows the history of the
+				performed leg length and offset measurements.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>632185</commentid>
+			<comment_count>1</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2018-12-12 08:09:53 +0100</bug_when>
+			<thetext>set correct milestone to later</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>745562</commentid>
+			<comment_count>2</comment_count>
+			<who name="Mario Schubert">mario.schubert@brainlab.com</who>
+			<bug_when>2020-12-15 10:08:34 +0100</bug_when>
+			<thetext>Implementation of predictive trialing offers user a prediction of LL & OS
+				therefore a history of prior measurements does not offer additional value --> so
+				target "later" is still valid</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>153782</bug_id>
+		<creation_ts>2022-09-19 15:47:47 +0200</creation_ts>
+		<short_desc>XTool Pro documentation updates</short_desc>
+		<delta_ts>2022-10-14 13:38:30 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>Specs/Docu/Management</component>
+		<version>7.1.0 RC1</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>CONFIRMED</bug_status>
+		<resolution />
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P5</priority>
+		<bug_severity>enhancement</bug_severity>
+		<target_milestone>later</target_milestone>
+		<everconfirmed>1</everconfirmed>
+		<reporter name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</reporter>
+		<assigned_to name="Philipp Pousset (S&amp;N)">philipp.pousset.ext@brainlab.com</assigned_to>
+		<cc>steffen.beck.ext@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-8TpQllk9RbxsQC6ZhQ67F1-IWaJHwng0EVFbGC5ySfU</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>830738</commentid>
+			<comment_count>0</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-09-19 15:47:47 +0200</bug_when>
+			<thetext>Documentation errors were noticed during RC 1 testing which shall be changed in
+				the specifications and tests at a later point: Te.38ZN5X: format of date of
+				manufacture needs to be YYYY-MM-DD and it should say Customer support Number --> see
+				also bug: 153660 In general specifications as in bug 153662 need to be adapted
+				Te.3943XA, Te.3943U7, Te.3932R2, Te.3932MW, Te.3932PY, Te.3932NX, Te.3932QZ,
+				Te.3932S3, Te.3943V8, Te.3943W9, Te.39444G, Te.39446J, Te.39447K, Te.3944BP,
+				Te.3944P3: formulation unclear: domain cannot be selected but needs to be searched
+				for. Te.3BN4JJ: Cup impactor Depuy Straight should be named Pinnacle Straight
+				Te.3944HV: Header should say second rim point. Entry shall say ThisRegistrationPage
+				/ Pelvis_OpposingAcetabularRim. Test is wrongly linked in XTool it is currently
+				linked to Sp.38EGRS but shall be linked to Sp.3BS5MS Te.39657N, Te.3L3DRQ: Tests
+				shall ensure that considering the minimum rule for the listed applications and
+				versions, all listed applications regardless of the version is installed.</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>830739</commentid>
+			<comment_count>1</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-09-19 15:48:44 +0200</bug_when>
+			<thetext>--> set to confirmed after documentation bugs were noticed during testing</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>830758</commentid>
+			<comment_count>2</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-09-20 08:54:36 +0200</bug_when>
+			<thetext>Te.3943XA, Te.3943U7, Te.3932R2, Te.3932MW, Te.3932PY, Te.3932NX, Te.3932QZ,
+				Te.3932S3, Te.3943V8, Te.3943W9, Te.39444G, Te.39446J, Te.39447K, Te.3944BP,
+				Te.3944P3: formulation unclear: domain cannot be selected but needs to be searched
+				for. --> domain can be searched by click on calculate domains</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>832567</commentid>
+			<comment_count>3</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-10-14 13:38:30 +0200</bug_when>
+			<thetext>Hip 7.1 refers to project SNNA030 for release of HIP7 under MDR and not
+				cancelled project SNNA06 (Hyperion) --> changed target to later</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>153669</bug_id>
+		<creation_ts>2022-09-09 11:59:33 +0200</creation_ts>
+		<short_desc>Intended use of SOUPs shall be specified in SW requirements documentation</short_desc>
+		<delta_ts>2022-10-14 13:46:14 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>Specs/Docu/Management</component>
+		<version>7.1.0 RC1</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>CONFIRMED</bug_status>
+		<resolution />
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P5</priority>
+		<bug_severity>minor</bug_severity>
+		<target_milestone>later</target_milestone>
+		<everconfirmed>1</everconfirmed>
+		<reporter name="Philipp Pousset (S&amp;N)">philipp.pousset.ext@brainlab.com</reporter>
+		<assigned_to name="Philipp Pousset (S&amp;N)">philipp.pousset.ext@brainlab.com</assigned_to>
+		<cc>mario.schubert.ext@brainlab.com</cc>
+		<cc>reifenschneider.ext@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-kkq_cNuXFUXWSr4zVIoq_d9cyrhscGL6TGAesiasxYE</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>830022</commentid>
+			<comment_count>0</comment_count>
+			<who name="Philipp Pousset (S&amp;N)">philipp.pousset.ext@brainlab.com</who>
+			<bug_when>2022-09-09 11:59:33 +0200</bug_when>
+			<thetext>To ensure that all used SOUPs are specified correctly, the Intended Use of each
+				SOUP shall be described in the XTool documentation of HIP7. Set target to later as
+				the documentation is already in a release state. In the Qualification of SOUP
+				Template a reference to this bug is done see Windchill: - 0000008624, SOUP -
+				Qualification of Software of Unknown Provenance FTDI Library 2.8.14 (see also bug
+				141622 for KNEE3) and - 0000309988, SOUP Microsoft Expression Blend SDK HIP7</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>832573</commentid>
+			<comment_count>1</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-10-14 13:46:14 +0200</bug_when>
+			<thetext>Version 7.1.0 RC1 already refers to project SNNA030 for release of HIP7 under
+				MDR which was later changed to a second digit change --> HIP7 v7.1</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>153662</bug_id>
+		<creation_ts>2022-09-08 16:49:14 +0200</creation_ts>
+		<short_desc>Bip package wrong version</short_desc>
+		<delta_ts>2022-10-14 13:46:52 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>Specs/Docu/Management</component>
+		<version>7.1.0 RC1</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>CONFIRMED</bug_status>
+		<resolution />
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P5</priority>
+		<bug_severity>enhancement</bug_severity>
+		<target_milestone>later</target_milestone>
+		<everconfirmed>1</everconfirmed>
+		<reporter name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</reporter>
+		<assigned_to name="Philipp Pousset (S&amp;N)">philipp.pousset.ext@brainlab.com</assigned_to>
+		<cc>steffen.beck.ext@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-B9LE5p6sn7y8P-4oFmfzjrTddxGgCoEOCwhfknYs2OE</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>829971</commentid>
+			<comment_count>0</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-09-08 16:49:14 +0200</bug_when>
+			<thetext> In the following specifications the names, versions and rules are defined.
+				Sp.3BHARS Sp.3BHAST Sp.3BWN93 In Sp.3BHARS the rule convention for the Cup and Leg
+				and express workflow are set wrongly instead of - "Workflow-HIP7CupAndLeg"
+				minVersion="7.1.0" - "Workflow-HIP7ExpressLeg" minVersion="7.1.0" It should be: -
+				"Workflow-HIP7CupAndLeg" minVersion="7.0.0" - "Workflow-HIP7ExpressLeg"
+				minVersion="7.0.0" In Sp.3BHAST, Sp.3BWN93 the version is set wrongly instead of: - <bip
+					name="Workflow-HIP7CupAndLeg" version="7.1.0"> - <bip
+					name="Workflow-HIP7ExpressLeg" version="7.1.0"> it should be: - <bip
+					name="Workflow-HIP7CupAndLeg" version="7.0.0"> - <bip
+					name="Workflow-HIP7ExpressLeg" version="7.0.0"> because the bip packages of the
+				Cup and Leg and Express Leg workflow were not changed. Implementation is correct. no
+				tests are affected</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>829984</commentid>
+			<comment_count>1</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-09-09 08:20:12 +0200</bug_when>
+			<thetext>additional wrong version in folllowing specs Sp.3BWNA4/ Sp.3BWN82 similar as
+				in: Sp.3BHAST & Sp.3BWN93/</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>832574</commentid>
+			<comment_count>2</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-10-14 13:46:52 +0200</bug_when>
+			<thetext>Version 7.1.0 RC1 already refers to project SNNA030 for release of HIP7 under
+				MDR which was later changed to a second digit change --> HIP7 v7.1</thetext>
+		</long_desc>
+	</bug>
+	<bug>
+		<bug_id>153660</bug_id>
+		<creation_ts>2022-09-08 16:00:44 +0200</creation_ts>
+		<short_desc>About Box Date of manufacture</short_desc>
+		<delta_ts>2022-10-14 13:47:14 +0200</delta_ts>
+		<reporter_accessible>1</reporter_accessible>
+		<cclist_accessible>1</cclist_accessible>
+		<classification_id>27</classification_id>
+		<classification>S&amp;N Transition</classification>
+		<product>Hip7</product>
+		<component>Specs/Docu/Management</component>
+		<version>7.1.0 RC1</version>
+		<rep_platform>All</rep_platform>
+		<op_sys>All</op_sys>
+		<bug_status>CONFIRMED</bug_status>
+		<resolution />
+		<bug_file_loc />
+		<status_whiteboard />
+		<keywords />
+		<priority>P5</priority>
+		<bug_severity>enhancement</bug_severity>
+		<target_milestone>later</target_milestone>
+		<everconfirmed>1</everconfirmed>
+		<reporter name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</reporter>
+		<assigned_to name="Philipp Pousset (S&amp;N)">philipp.pousset.ext@brainlab.com</assigned_to>
+		<cc>steffen.beck.ext@brainlab.com</cc>
+		<estimated_time>0.00</estimated_time>
+		<remaining_time>0.00</remaining_time>
+		<actual_time>0.00</actual_time>
+		<cf_specification />
+		<cf_test />
+		<cf_task_or_issue>Bug</cf_task_or_issue>
+		<cf_loka_analysis />
+		<cf_ots />
+		<cf_visual_id />
+		<cf_cid />
+		<token>1675068676-TK3k8jN-jTm6lO9KN2fdLoNSb1LUQ15ikAfbkJiUg2E</token>
+		<group id="21">S&amp;N</group>
+		<comment_sort_order>oldest_to_newest</comment_sort_order>
+		<long_desc isprivate="0">
+			<commentid>829966</commentid>
+			<comment_count>0</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-09-08 16:00:44 +0200</bug_when>
+			<thetext>The date of manufacture has the wrong format in specification Sp.38FPQZ and
+				Te.38ZN5X. Instead of YYYY-MM it should be: YYYY-MM-DD</thetext>
+		</long_desc>
+		<long_desc isprivate="0">
+			<commentid>832576</commentid>
+			<comment_count>1</comment_count>
+			<who name="Franziska Reifenschneider (S&amp;N)">reifenschneider.ext@brainlab.com</who>
+			<bug_when>2022-10-14 13:47:14 +0200</bug_when>
+			<thetext>Version 7.1.0 RC1 already refers to project SNNA030 for release of HIP7 under
+				MDR which was later changed to a second digit change --> HIP7 v7.1</thetext>
+		</long_desc>
+	</bug>
+	</bugzilla>

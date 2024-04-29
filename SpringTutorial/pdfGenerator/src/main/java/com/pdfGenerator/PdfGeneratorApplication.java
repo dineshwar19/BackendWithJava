@@ -16,6 +16,7 @@ public class PdfGeneratorApplication {
 		PdfService pDFGenerator = ac.getBean("pdfGenerator",PdfService.class);
 		
 		pDFGenerator.generatePdf();
+//		SpringApplication.run(PdfGeneratorApplication.class, args);
 		}
 
 }

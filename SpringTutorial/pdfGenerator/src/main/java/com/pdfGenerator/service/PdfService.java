@@ -2,29 +2,36 @@ package com.pdfGenerator.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
-//import org.springframework.stereotype.Service;
-
-import com.itextpdf.text.BaseColor;
-import com.itextpdf.text.Document;
-import com.itextpdf.text.DocumentException;
-import com.itextpdf.text.Element;
-import com.itextpdf.text.Paragraph;
-import com.itextpdf.text.Phrase;
-import com.itextpdf.text.pdf.PdfPCell;
-import com.itextpdf.text.pdf.PdfPTable;
-import com.itextpdf.text.pdf.PdfWriter;
-//import com.pdfGenerator.model.NewModel;
+import org.thymeleaf.TemplateEngine;
+import org.thymeleaf.context.Context;
+import org.thymeleaf.templatemode.TemplateMode;
+import org.thymeleaf.templateresolver.ClassLoaderTemplateResolver;
+import org.xhtmlrenderer.pdf.ITextRenderer;
+import java.io.BufferedInputStream;
+import com.lowagie.text.Document;
+import com.lowagie.text.DocumentException;
+import com.lowagie.text.Element;
+import com.lowagie.text.Paragraph;
+import com.lowagie.text.Phrase;
+import com.lowagie.text.pdf.PdfPCell;
+import com.lowagie.text.pdf.PdfPTable;
+import com.lowagie.text.pdf.PdfWriter;
 import com.pdfGenerator.model.PdfModel;
 import com.pdfGenerator.repository.PdfRepo;
-
 import jakarta.transaction.Transactional;
-
 import java.io.FileOutputStream;
+import java.io.IOException;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.net.URL;
+import java.net.URLConnection;
 import java.sql.Timestamp;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
 import java.util.List;
 
+// dynamic data from database and generate that data as a table format.
 @Component("pdfGenerator")
 public class PdfService {
 
@@ -48,15 +55,16 @@ public class PdfService {
 	
 	@Value("${table.columnNames}")
 	private List<String> columnNames;
-	Timestamp startDate = Timestamp.valueOf(LocalDateTime.of(2024, 3, 1, 0, 0)); 
-    Timestamp endDate = Timestamp.valueOf(LocalDateTime.of(2024, 3, 10, 0, 0)); 
+	Timestamp startDate = Timestamp.valueOf(LocalDateTime.of(2024, 3, 1, 0, 0));
+    Timestamp endDate = Timestamp.valueOf(LocalDateTime.of(2024, 3, 10, 0, 0));
     public void generatePdf() {
-//        List<PdfModel> pdfDataList = pdfRepo.getGeneratedList(startDate,endDate);
         Document doc = new Document();
         try {
             PdfWriter writer = PdfWriter.getInstance(doc, new FileOutputStream(getPdfNameWithDate()));
             doc.open();
             createTable(doc, noOfColumns);
+        	String htmlContent = parseThymeleafTemplate();
+            generatePdfFromHtml(htmlContent);
             doc.close();
             writer.close();
         } catch (Exception e) {
@@ -64,12 +72,12 @@ public class PdfService {
         }
     }
     private String getPdfNameWithDate() {
-		String localDateString = LocalDateTime.now().format(DateTimeFormatter.ofPattern("dd_MMMM_yyyy"));
-		return "F:/Intership/"+"DataPdf"+"-"+localDateString+".pdf";
-	}
+        String localDateString = LocalDateTime.now().format(DateTimeFormatter.ofPattern("dd_MMMM_yyyy"));
+        return pdfDir + "DataPdf-" + localDateString + ".pdf";
+    }
     private void createTable(Document document, int noOfColumns) throws DocumentException {
 		Paragraph paragraph = new Paragraph();
-//		leaveEmptyLine(paragraph, 3);
+		leaveEmptyLine(paragraph, 3);
 		document.add(paragraph);
 
 		PdfPTable table = new PdfPTable(noOfColumns);
@@ -77,20 +85,19 @@ public class PdfService {
 		for(int i=0; i<noOfColumns; i++) {
 			PdfPCell cell = new PdfPCell(new Phrase(columnNames.get(i)));
 			cell.setHorizontalAlignment(Element.ALIGN_CENTER);
-			cell.setBackgroundColor(BaseColor.CYAN);
+//			cell.setBackgroundColor(BaseColor.CYAN);
 			table.addCell(cell);
 		}
-
 		table.setHeaderRows(1);
 		getDbData(table);
 		document.add(table);
 	}
-//    
-//    private static void leaveEmptyLine(Paragraph paragraph, int number) {
-//		for (int i = 0; i < number; i++) {
-//			paragraph.add(new Paragraph(" "));
-//		}
-//	}
+    
+    private static void leaveEmptyLine(Paragraph paragraph, int number) {
+		for (int i = 0; i < number; i++) {
+			paragraph.add(new Paragraph(" "));
+		}
+	}
     	@Transactional
     	private void getDbData(PdfPTable table) {
 		List<PdfModel> list = pdfRepo.getGeneratedList(startDate, endDate);
@@ -102,5 +109,57 @@ public class PdfService {
 			table.addCell(data.getDates().toString());
 			table.addCell(data.getUnit().toString());
 		}		
-	}	
+	}
+    private String parseThymeleafTemplate() {
+        ClassLoaderTemplateResolver templateResolver = new ClassLoaderTemplateResolver();
+        templateResolver.setPrefix("templates/");
+        templateResolver.setSuffix(".html");
+        templateResolver.setTemplateMode(TemplateMode.HTML);
+
+        TemplateEngine templateEngine = new TemplateEngine();
+        templateEngine.setTemplateResolver(templateResolver);
+
+        Context context = new Context();
+        context.setVariable("chartData", dbData() );
+
+        return templateEngine.process("index", context);
+    }
+    public void generatePdfFromHtml(String htmlContent) throws IOException {
+    	FileOutputStream outputStream = new FileOutputStream(getPdfNameWithDate());
+
+        ITextRenderer renderer = new ITextRenderer();
+        renderer.setDocumentFromString(htmlContent);
+        renderer.layout();
+        renderer.createPDF(outputStream);
+
+        outputStream.close();
+    }
+    
+//    TO get data from a database as an entity and convert it into List<List<Object>>
+    public List<List<Object>> dbData(){
+		List<PdfModel> list = pdfRepo.getGeneratedList(startDate, endDate);
+		List<List<Object>> res = new ArrayList<>();
+		for(PdfModel data : list) {
+			List<Object> inner = new ArrayList<>();
+	        inner.add(data.getDates());
+	        inner.add(data.getUnit());
+	        res.add(inner);
+		}
+		System.out.println(res);
+		return res;
+	}
+    
+//    to download a HTML file
+    public static void downloadHtml(String urlString, String destinationFile) throws IOException, URISyntaxException {
+    	URL url = new URI(urlString).toURL();        
+    	URLConnection connection = url.openConnection();
+        try (BufferedInputStream in = new BufferedInputStream(connection.getInputStream());
+             FileOutputStream fileOutputStream = new FileOutputStream(destinationFile)) {
+            byte[] buffer = new byte[1024];
+            int bytesRead;
+            while ((bytesRead = in.read(buffer)) != -1) {
+                fileOutputStream.write(buffer, 0, bytesRead);
+            }
+        }
+    }
 }
